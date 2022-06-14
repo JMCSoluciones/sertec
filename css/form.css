@@ -1,0 +1,129 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.title {
+  text-align: center;
+  color: #000000;
+  font-size: 2.6rem;
+  font-weight: 600;
+  border-bottom: 5px solid #831d22;
+  margin: 40px 0;
+}
+.title2 {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.section__header {
+  position: relative;
+}
+.section__header-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+.section__header-content > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.section__header-content p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  position: absolute;
+  color: #ffffff;
+  background-color: rgba(34, 34, 34, 0.6);
+  width: 100vw;
+  font-size: 2.6rem;
+  padding: 30px;
+  text-align: left;
+  font-weight: 300;
+  line-height: 4.9rem;
+}
+.section__header-content p strong {
+  border-top: 1px solid #831d22;
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+.section__header-content p span {
+  font-weight: 800;
+}
+
+.contacto__form {
+  font-family: 'Inter', sans-serif !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contacto__form .form {
+  background-color: #4F4B49;
+  width: 375px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+.contacto__form .form__title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4em;
+  color: #ffffff;
+}
+.contacto__form .form__container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+.contacto__form .form__container__input {
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.4em;
+}
+.contacto__form .form__container__input--message {
+  resize: none;
+  padding: 1.8em 0.5em;
+  margin-bottom: 0.5em;
+}
+.contacto__form .form__container__cta {
+  font-family: inherit;
+  background-color: #831d22;
+  color: #ffffff;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.4em;
+  cursor: pointer;
+  font-weight: 600;
+}
+@media (max-width: 450px) {
+  .contacto__form .form {
+    padding: 3.5em 1em;
+    margin: 40px auto;
+  }
+}
