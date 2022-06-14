@@ -1160,13 +1160,17 @@ footer .footer__box__body-links li a {
 footer .footer__box__body-address {
   text-align: center;
 }
+footer .footer__box__body-address h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
 footer .footer__box__body-address img {
   width: 80px;
   margin: 20px auto;
 }
 footer .footer__box__body-address p {
   font-size: 1.8rem;
-  width: 170px;
+  width: 212px;
   text-align: center;
   margin: 5px auto;
   font-weight: 300;
