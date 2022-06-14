@@ -53,7 +53,6 @@
       .carousel-item{
         position: relative !important;
         display: inline-block !important;
-      
         .slide1__Content{
          display: flex;
          flex-direction: column;
@@ -396,7 +395,7 @@
             margin: 40px;
             border: 5px solid @color-primary;
             border-radius: 20px;
-            height: 400px;
+            height: 398px;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 3fr 1fr;
@@ -419,6 +418,8 @@
               display: flex;
               justify-content: center;
               align-items: center;
+              border-radius: 0 0 15px 15px;
+              height: 100%;
               p{
                 text-align: center;
                 font-size: 2.8rem;
@@ -701,6 +702,7 @@
             margin: 20px;
             height: 400px;
             display: grid;
+            overflow: hidden;
             &-img{
               margin: 20px;
             }
@@ -713,6 +715,7 @@
               display: flex;
               align-items: center;
               justify-content: center;
+              height: 80px;
               border-radius: 0 0 5px 5px;            
             }
           }

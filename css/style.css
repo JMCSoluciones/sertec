@@ -591,7 +591,7 @@ body {
   margin: 40px;
   border: 5px solid #000000;
   border-radius: 20px;
-  height: 400px;
+  height: 398px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -635,6 +635,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 0 0 15px 15px;
+  height: 100%;
 }
 .index__area__prioridad__items-item .box-txt p {
   text-align: center;
@@ -886,6 +888,7 @@ body {
   height: 400px;
   display: -ms-grid;
   display: grid;
+  overflow: hidden;
 }
 .productos__catalogo .accordion .accordion-body__box-img {
   margin: 20px;
@@ -905,6 +908,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 80px;
   border-radius: 0 0 5px 5px;
 }
 .calderas__venta {
