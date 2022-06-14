@@ -13,7 +13,7 @@ body {
 .title {
   text-align: center;
   color: #000000;
-  font-size: 2.6rem;
+  font-size: 3rem;
   font-weight: 600;
   border-bottom: 5px solid #831d22;
   margin: 40px 0;
@@ -61,7 +61,6 @@ body {
   line-height: 4.9rem;
 }
 .section__header-content p strong {
-  border-top: 1px solid #831d22;
   font-size: 4.5rem;
   font-weight: 600;
 }
@@ -131,6 +130,10 @@ body {
 }
 .marcas__propiedad p {
   text-align: center;
+}
+.banner-title {
+  font-size: 4.5rem !important;
+  font-weight: 600 !important;
 }
 .index .carousel-inner {
   margin-bottom: 10px;
@@ -699,11 +702,24 @@ body {
   display: grid;
 }
 .empresa__content__mvv-box {
-  height: 550px;
+  height: 650px;
   margin: 20px 10px;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .empresa__content__mvv-box img {
   width: 70px;
@@ -716,7 +732,7 @@ body {
   border-bottom: 2px solid #000000;
 }
 .empresa__content__mvv-box p {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-align: justify;
 }
 .empresa__content__mvv-box ul {
@@ -760,16 +776,25 @@ body {
 .servicios__periodico {
   position: relative;
   margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .servicios__periodico p {
   position: absolute;
-  top: 0;
   color: #ffffff;
   text-align: left;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 300;
   margin: 40px 30px;
-  width: 250px;
+  width: 270px;
+  line-height: 3.2rem;
 }
 .servicios__periodico p strong {
   font-weight: 600;
@@ -780,9 +805,10 @@ body {
 }
 .servicios__catalogo__items-item {
   margin: 20px 10px;
+  border: 2px solid #C4C4C4;
   display: -ms-grid;
   display: grid;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .servicios__catalogo__items-item img {
   max-width: 90%;
@@ -808,20 +834,20 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin: 10px;
   border-bottom: 4px solid #831d22;
 }
 .servicios__catalogo__items-item .modal-content-header img {
   width: 30px;
   height: 30px;
-  margin: 10px;
+  margin-top: 20px;
 }
 .servicios__catalogo__items-item .modal-content-header p {
   margin: 10px auto;
-  text-align: left;
+  text-align: center;
   font-size: 2.4rem;
   width: 100%;
   padding: 5px;
@@ -847,10 +873,16 @@ body {
 }
 .servicios__catalogo__items-item .modal-content-body-content p {
   font-weight: 400;
-  text-align: left;
+  text-align: justify;
 }
 .servicios__catalogo__items-item .modal-content-body-content ul {
   margin: 20px 40px;
+}
+.servicios__catalogo__items-item .modal-content-body-content ul .vineta {
+  list-style: disc;
+}
+.servicios__catalogo__items-item .modal-content-body-content ul li {
+  list-style: none;
 }
 .servicios__catalogo__items-item .modal-content-body-content ul li p {
   text-align: left;
@@ -858,7 +890,7 @@ body {
   margin: 5px;
 }
 .productos__brindar p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: justify;
   font-weight: 400;
   margin: 20px;
@@ -913,6 +945,19 @@ body {
 }
 .calderas__venta {
   margin: 40px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .calderas__venta p {
   font-size: 2rem;

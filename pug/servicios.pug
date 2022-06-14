@@ -7,7 +7,7 @@ block content
                     source(media="(min-width:1110px)" srcset="images/JPG/bannerServicios1920x600.jpg")
                     source(media="(min-width:768px)" srcset="images/JPG/bannerServicios834x537.jpg")
                     img(src="images/JPG/bannerServicios428x374.jpg", alt="Ingeniero con casco").img-fluid
-                p SERVICIOS
+                p.banner-title SERVICIOS
         p.title NUESTROS SERVICIOS
         .servicios__necesidades 
         //-     p Una de las mayores necesidades de nuestros clientes ha sido siempre el obtener la más alta calidad, garantía y mejor tiempo de respuesta en los servicios; es por ello que en #[strong SERVICIO TÉCNICO A CALDERAS] contamos con un equipo de trabajo altamente calificado y capacitado, con sólidos y amplios conocimientos en diseño, operación, reparación, instalación y mantenimiento de calderas, permitiéndole a nuestros clientes mantenerse operativos de una forma segura y eficiente.
@@ -36,7 +36,7 @@ block content
         .servicios__catalogo 
             .servicios__catalogo__items 
                 //- ITEM SERVICIOS
-                .servicios__catalogo__items-item.shadow
+                .servicios__catalogo__items-item
                     img(src="images/serviciosMobile/disenoCuartoMaquinas500x458.jpg", alt="").img-fluid
                     p DISEÑO DE CUARTO DE MÁQUINAS
                     button(type="button" data-bs-toggle="modal" data-bs-target="#maquinasModal").btn.btn-primary.btn-modal.btn-servicios Más Información
@@ -57,7 +57,7 @@ block content
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
                 //- ITEM SERVICIOS
-                .servicios__catalogo__items-item.shadow
+                .servicios__catalogo__items-item
                     img(src="images/serviciosMobile/instalacionCalderas500x458.jpg").img-fluid
                     p INSTALACIÓN DE CALDERAS #[br]Y #[br]EQUIPOS AUXILIARES
                     button(type="button" data-bs-toggle="modal" data-bs-target="#hollinModal").btn.btn-primary.btn-modal.btn-servicios Más Información
@@ -78,18 +78,18 @@ block content
                                         p Desmontaje, colocación, instalación, arranque de calderas y calentadores así como de:
                                         ul 
                                             li 
-                                                p Equipos auxiliares y equipos sujetos a presión.
+                                                p - Equipos auxiliares y equipos sujetos a presión.
                                             li 
-                                                p Líneas y tuberías de vapor, agua y combustible.
+                                                p - Líneas y tuberías de vapor, agua y combustible.
                                             li 
-                                                p Tanques de combustible, condensados y agua caliente.
+                                                p - Tanques de combustible, condensados y agua caliente.
                                             li 
-                                                p Chimeneas y suavizadores.
+                                                p - Chimeneas y suavizadores.
 
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
             
-                .servicios__catalogo__items-item.shadow
+                .servicios__catalogo__items-item
                     img(src="images/serviciosMobile/MttoCalderas500x458.jpg", alt="").img-fluid
                     p MANTENIMIENTO PREVENTIVO #[br]Y #[br]CORRECTIVO A CALDERAS
                     button(type="button" data-bs-toggle="modal" data-bs-target="#mttoModal").btn.btn-primary.btn-modal.btn-servicios Más Información
@@ -112,36 +112,36 @@ block content
                                         p Mantenimiento preventivo, correctivo, reparaciones y atención de fallas a calderas:
                                         ul 
                                             li 
-                                                p Lavados y deshollinados.
+                                                p - Lavados y deshollinados.
                                             li 
-                                                p Limpieza y calibración de controles de presión.
+                                                p - Limpieza y calibración de controles de presión.
                                             li 
-                                                p Revisión de los sistemas de seguridad.
+                                                p - Revisión de los sistemas de seguridad.
                                             li 
-                                                p Pruebas y ajustes de combustión.
+                                                p - Pruebas y ajustes de combustión.
                                             li 
-                                                p Pruebas hidrostáticas.
+                                                p - Pruebas hidrostáticas.
                                             li  
-                                                p Cambio y reparación de:
+                                                p - Cambio y reparación de:
                                                 ul
-                                                    li 
+                                                    li.vineta 
                                                         p Amplificadores de flama (infrarrojos y ultravioleta), programadores. 
-                                                    li 
+                                                    li.vineta  
                                                         p Bombas y válvulas.
-                                                    li 
+                                                    li.vineta  
                                                         p Espejos, hogar, cañones lisos y corrugados, tanques, suavizadores y serpentines.
-                                                    li 
+                                                    li.vineta  
                                                         p Instalaciones, sistema eléctrico y de control.
-                                                    li 
+                                                    li.vineta  
                                                         p Refractarios.
-                                                    li 
+                                                    li.vineta  
                                                         p Tapas refractarias completas delanteras, intermedias y  traseras.
-                                                    li 
+                                                    li.vineta  
                                                         p Tubería flux.
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
                 
-                .servicios__catalogo__items-item.shadow
+                .servicios__catalogo__items-item
                     img(src="images/serviciosMobile/conversionCalderas500x458.jpg").img-fluid
                     p CONVERSIÓN DE COMBUSTIBLES A CALDERAS
                     button(type="button" data-bs-toggle="modal" data-bs-target="#conversionModal").btn.btn-primary.btn-modal.btn-servicios Más Información
@@ -165,16 +165,16 @@ block content
                                         p Conversión de combustibles a calderas:
                                         ul 
                                             li 
-                                                p De gas a combustóleo.
+                                                p - De gas a combustóleo.
                                             li 
-                                                p De combustóleo a gas.
+                                                p - De combustóleo a gas.
                                             li 
-                                                p De combustóleo a diésel.
+                                                p - De combustóleo a diésel.
                                             li 
-                                                p De diésel a gas.
+                                                p - De diésel a gas.
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
-                .servicios__catalogo__items-item.shadow
+                .servicios__catalogo__items-item
                     img(src="images/serviciosMobile/quemadores500x458.jpg").img-fluid
                     p MANTENIMIENTO PREVENTIVO #[br]Y#[br] CORRECTIVO A QUEMADORES
                     button(type="button" data-bs-toggle="modal" data-bs-target="#quemadoresModal").btn.btn-primary.btn-modal.btn-servicios Más Información
@@ -197,11 +197,11 @@ block content
                                         p Mantenimiento preventivo, correctivo, reparaciones y atención de fallas a quemadores:
                                         ul 
                                             li 
-                                                p Revisión, limpieza, ajuste y calibración de quemadores para hornos y calderas conforme a análisis de emisión de gases.
+                                                p - Revisión, limpieza, ajuste y calibración de quemadores para hornos y calderas conforme a análisis de emisión de gases.
 
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
-                .servicios__catalogo__items-item.shadow
+                .servicios__catalogo__items-item
                     img(src="images/serviciosMobile/carburacionesTesto500x458.jpg").img-fluid
                     p CARBURACIONES CON EQUIPO ANALIZADOR TESTO
                     button(type="button" data-bs-toggle="modal" data-bs-target="#testoModal").btn.btn-primary.btn-modal.btn-servicios Más Información
@@ -222,7 +222,7 @@ block content
                                         p Carburación con equipo analizador de gases de combustión marca Testo para sistemas mecánicos y electrónicos.
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
-                .servicios__catalogo__items-item.shadow
+                .servicios__catalogo__items-item
                     img(src="images/serviciosMobile/cursos500x458.jpg", alt="").img-fluid
                     p CURSO BÁSICO DE OPERACIÓN A CALDERAS
                     button(type="button" data-bs-toggle="modal" data-bs-target="#cursosModal").btn.btn-primary.btn-modal.btn-servicios Más Información
@@ -243,7 +243,7 @@ block content
 
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
-                .servicios__catalogo__items-item.shadow
+                .servicios__catalogo__items-item
                     img(src="images/serviciosMobile/serviciosAdicionales500x458.jpg").img-fluid
                     p SERVICIOS ADICIONALES
                     button(type="button" data-bs-toggle="modal" data-bs-target="#adicionalesModal").btn.btn-primary.btn-modal.btn-servicios Más Información
@@ -262,13 +262,13 @@ block content
                                     .modal-content-body-content
                                         ul 
                                             li  
-                                                p Soporte y asesoría técnica especializada.
+                                                p - Soporte y asesoría técnica especializada.
                                             li 
-                                                p Consultoría. 
+                                                p - Consultoría. 
                                             li 
-                                                p Diagnóstico de equipos e instalaciones.
+                                                p - Diagnóstico de equipos e instalaciones.
                                             li  
-                                                p Emergencias.
+                                                p - Emergencias.
 
 
 

@@ -46,7 +46,10 @@
   .marcas__propiedad p{
     text-align: center;
   }
-  
+  .banner-title{
+    font-size: 4.5rem !important;
+    font-weight: @font-semibold !important;
+  }
   .index{
     .carousel-inner{
       margin-bottom: 10px;
@@ -487,12 +490,16 @@
       &__mvv{
         display: grid;
         &-box{
-          height: 550px;
+          height: 650px;
           // border: 1px solid @color-text;
           margin: 20px 10px;
           border-radius: 10px;
           padding: 20px;
           text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
 
           img{
             width: 70px;
@@ -505,7 +512,7 @@
             border-bottom: 2px solid @color-primary;
           }
           p{
-            font-size: @size-lg;
+            font-size: @size-xxl;
             text-align: justify;
           }
           ul{
@@ -544,15 +551,20 @@
     &__periodico{
       position: relative;
       margin: 40px auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
       p{
-        position: absolute;
-        top: 0;
+        position: absolute;    
         color: @color-white;
         text-align: left;
-        font-size: 2.4rem;
+        font-size: 2.8rem;
         font-weight: @font-light;
         margin: 40px 30px;
-        width: 250px;
+        width: 270px;
+   
+
+        line-height: 3.2rem;
         strong{
           font-weight: @font-semibold;
         }
@@ -565,10 +577,12 @@
       &__items{
         display: grid;
         &-item{
+          
+
           margin: 20px 10px;
-          // border: 2px solid @color-primary;
+          border: 2px solid @color-gray;
           display: grid;
-          border-radius: 5px;
+          border-radius: 10px;
           img{
             max-width: 90%;
             margin: 20px;
@@ -593,17 +607,17 @@
             &-content{
               &-header{
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
                 margin: 10px;
                 border-bottom: 4px solid @color-secondary;
                 img{
                   width: 30px;
                   height: 30px;
-                  margin: 10px;
+                  margin-top: 20px;
                 }
                 p{
                   margin: 10px auto;
-                  text-align: left;
+                  text-align: center;
                   font-size: 2.4rem;
                   width: 100%;
                   padding: 5px;
@@ -637,11 +651,16 @@
                 &-content{
                   p{
                     font-weight: @font-regular;
-                    text-align: left;
+                    text-align: justify;
+
                   }
                   ul{
                     margin: 20px 40px;
+                    .vineta{
+                      list-style: disc;
+                    }
                     li{
+                      list-style: none;
                       p{
                         text-align: left;
                         font-size: @size-lg;
@@ -669,7 +688,7 @@
   .productos{
     &__brindar{
       p{
-        font-size: @size-lg;
+        font-size: @size-xl;
         text-align: justify;
         font-weight: @font-regular;
         margin: 20px;
@@ -730,10 +749,17 @@
   .calderas{
     &__venta{
       margin: 40px 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       p{
         font-size: @size-xl;
         text-align: left;
         font-weight: @font-light;
+      }
+      img{
+
       }
     }
   }
@@ -1033,7 +1059,3 @@
     }
     
   }
-    
-  
-      
-    
