@@ -4,9 +4,9 @@ block content
         .section__header
             .section__header-content
                 picture
-                    source(media="(min-width:1110px)" srcset="/images/JPG/bannerServicios1920x600.jpg")
-                    source(media="(min-width:768px)" srcset="/images/JPG/bannerServicios834x537.jpg")
-                    img(src="/images/JPG/bannerServicios428x374.jpg", alt="Ingeniero con casco").img-fluid
+                    source(media="(min-width:1110px)" srcset="images/JPG/bannerServicios1920x600.jpg")
+                    source(media="(min-width:768px)" srcset="images/JPG/bannerServicios834x537.jpg")
+                    img(src="images/JPG/bannerServicios428x374.jpg", alt="Ingeniero con casco").img-fluid
                 p SERVICIOS
         p.title NUESTROS SERVICIOS
         .servicios__necesidades 
@@ -19,7 +19,7 @@ block content
         //- /-             button(type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3")
         //- /-         .carousel-inner 
         //- /-             .carousel-item.active 
-        //- /-                 img(src="/images/slidesMobile/slide1-480x565.jpg", alt="")
+        //- /-                 img(src="images/slidesMobile/slide1-480x565.jpg", alt="")
         //- /-         button(type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev").carousel-control-prev
         //- /-             span(aria-hidden="true").carousel-control-prev-icon
         //- /-             span.visually-hidden Previous
@@ -28,16 +28,16 @@ block content
         //- /-             span.visually-hidden Next
         .servicios__periodico
             picture
-                source(media="(min-width:768px)" srcset="/images/JPG/bannerservicios1920x500-.jpg") 
-                source(media="(min-width:768px)" srcset="/images/JPG/bannerServicios834x537-.jpg") 
-                img(src="/images/JPG/bannerservicios428x374-.jpg", alt="Ingeniero con casco").img-fluid
+                source(media="(min-width:768px)" srcset="images/JPG/bannerservicios1920x500-.jpg") 
+                source(media="(min-width:768px)" srcset="images/JPG/bannerServicios834x537-.jpg") 
+                img(src="images/JPG/bannerservicios428x374-.jpg", alt="Ingeniero con casco").img-fluid
             p Realizar un periódico y adecuado mantenimiento a sus equipos,#[br] #[strong ayudará a reducir costos de operación.]
         p.title2 CATÁLOGO DE SERVICIOS
         .servicios__catalogo 
             .servicios__catalogo__items 
                 //- ITEM SERVICIOS
                 .servicios__catalogo__items-item.shadow
-                    img(src="/images/serviciosMobile/disenoCuartoMaquinas500x458.jpg", alt="").img-fluid
+                    img(src="images/serviciosMobile/disenoCuartoMaquinas500x458.jpg", alt="").img-fluid
                     p DISEÑO DE CUARTO DE MÁQUINAS
                     button(type="button" data-bs-toggle="modal" data-bs-target="#maquinasModal").btn.btn-primary.btn-modal.btn-servicios Más Información
                     //- ****MODAL***
@@ -45,20 +45,20 @@ block content
                         .modal-dialog.modal-dialog-centered.modal-xl.modal-xl
                             .modal-content
                                 .modal-content-header
-                                    img(src="/images/SVG/circle-chevron-right-solid.svg", alt="")
+                                    img(src="images/SVG/circle-chevron-right-solid.svg", alt="")
                                     p.modal-title#exampleModalLabel DISEÑO DE CUARTO DE MAQUINAS
                                 .modal-content-body
                                     .modal-content-body-sidebar 
                                         p CUARTO DE MAQUINAS
                                         .modal-content-body-sidebar__images 
-                                            img(src="/images/Single/DisenoCuartodeMaquinas.jpg", alt="").img-fluid
+                                            img(src="images/Single/DisenoCuartodeMaquinas.jpg", alt="").img-fluid
                                     .modal-content-body-content
                                         p Diseño y planeación del cuarto o sala de máquinas para el posterior establecimiento de calderas y calentadores con sus equipos auxiliares.
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
                 //- ITEM SERVICIOS
                 .servicios__catalogo__items-item.shadow
-                    img(src="/images/serviciosMobile/instalacionCalderas500x458.jpg").img-fluid
+                    img(src="images/serviciosMobile/instalacionCalderas500x458.jpg").img-fluid
                     p INSTALACIÓN DE CALDERAS #[br]Y #[br]EQUIPOS AUXILIARES
                     button(type="button" data-bs-toggle="modal" data-bs-target="#hollinModal").btn.btn-primary.btn-modal.btn-servicios Más Información
                     //- ****MODAL***
@@ -66,14 +66,14 @@ block content
                         .modal-dialog.modal-dialog-centered.modal-xl.modal-xl
                             .modal-content
                                 .modal-content-header
-                                    img(src="/images/SVG/circle-chevron-right-solid.svg", alt="")
+                                    img(src="images/SVG/circle-chevron-right-solid.svg", alt="")
                                     p.modal-title#exampleModalLabel INSTALACIÓN DE CALDERAS Y EQUIPOS AUXILIARES
                                 .modal-content-body
                                     .modal-content-body-sidebar 
                                         p INSTALACIÓN DE COLECTOR DE HOLLÍN
                                         .modal-content-body-sidebar__images 
-                                            img(src="/images/Single/hollin.jpg", alt="Hollin").img-fluid
-                                            img(src="/images/Single/instalacionCalderasEquiposAux.jpg", alt="Hollin").img-fluid
+                                            img(src="images/Single/hollin.jpg", alt="Hollin").img-fluid
+                                            img(src="images/Single/instalacionCalderasEquiposAux.jpg", alt="Hollin").img-fluid
                                     .modal-content-body-content
                                         p Desmontaje, colocación, instalación, arranque de calderas y calentadores así como de:
                                         ul 
@@ -90,7 +90,7 @@ block content
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
             
                 .servicios__catalogo__items-item.shadow
-                    img(src="/images/serviciosMobile/MttoCalderas500x458.jpg", alt="").img-fluid
+                    img(src="images/serviciosMobile/MttoCalderas500x458.jpg", alt="").img-fluid
                     p MANTENIMIENTO PREVENTIVO #[br]Y #[br]CORRECTIVO A CALDERAS
                     button(type="button" data-bs-toggle="modal" data-bs-target="#mttoModal").btn.btn-primary.btn-modal.btn-servicios Más Información
                     //- ****MODAL***
@@ -98,16 +98,16 @@ block content
                         .modal-dialog.modal-dialog-centered.modal-xl.modal-xl
                             .modal-content
                                 .modal-content-header
-                                    img(src="/images/SVG/circle-chevron-right-solid.svg", alt="")
+                                    img(src="images/SVG/circle-chevron-right-solid.svg", alt="")
                                     p.modal-title#exampleModalLabel MANTENIMIENTO PREVENTIVO Y CORRECTIVO A CALDERAS
                                 .modal-content-body
                                     .modal-content-body-sidebar 
                                         p MANTENIMIENTO PREVENTIVO
                                         .modal-content-body-sidebar__images
                                             h3 ANTES
-                                            img(src="/images/Single/mantenimientoPrevCorr1.jpg").img-fluid
+                                            img(src="images/Single/mantenimientoPrevCorr1.jpg").img-fluid
                                             h3 DESPUÉS 
-                                            img(src="/images/Single/mantenimientoPrevCorr2.jpg").img-fluid
+                                            img(src="images/Single/mantenimientoPrevCorr2.jpg").img-fluid
                                     .modal-content-body-content
                                         p Mantenimiento preventivo, correctivo, reparaciones y atención de fallas a calderas:
                                         ul 
@@ -142,7 +142,7 @@ block content
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
                 
                 .servicios__catalogo__items-item.shadow
-                    img(src="/images/serviciosMobile/conversionCalderas500x458.jpg").img-fluid
+                    img(src="images/serviciosMobile/conversionCalderas500x458.jpg").img-fluid
                     p CONVERSIÓN DE COMBUSTIBLES A CALDERAS
                     button(type="button" data-bs-toggle="modal" data-bs-target="#conversionModal").btn.btn-primary.btn-modal.btn-servicios Más Información
                     //- ****MODAL***
@@ -150,16 +150,16 @@ block content
                         .modal-dialog.modal-dialog-centered.modal-xl.modal-xl
                             .modal-content
                                 .modal-content-header
-                                    img(src="/images/SVG/circle-chevron-right-solid.svg", alt="")
+                                    img(src="images/SVG/circle-chevron-right-solid.svg", alt="")
                                     p.modal-title#exampleModalLabel CONVERSIÓN DE COMBUSTIBLES A CALDERAS
                                 .modal-content-body
                                     .modal-content-body-sidebar 
                                         p CONVERSIÓN DE COMBUSTÓLEO A GAS NATURAL
                                         .modal-content-body-sidebar__images
                                             h3 ANTES
-                                            img(src="/images/Single/conversionCombustibles1.jpg", alt="Caldera").img-fluid
+                                            img(src="images/Single/conversionCombustibles1.jpg", alt="Caldera").img-fluid
                                             h3 DESPUÉS
-                                            img(src="/images/Single/conversionCombustibles2.jpg", alt="Caldera").img-fluid
+                                            img(src="images/Single/conversionCombustibles2.jpg", alt="Caldera").img-fluid
 
                                     .modal-content-body-content
                                         p Conversión de combustibles a calderas:
@@ -175,7 +175,7 @@ block content
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
                 .servicios__catalogo__items-item.shadow
-                    img(src="/images/serviciosMobile/quemadores500x458.jpg").img-fluid
+                    img(src="images/serviciosMobile/quemadores500x458.jpg").img-fluid
                     p MANTENIMIENTO PREVENTIVO #[br]Y#[br] CORRECTIVO A QUEMADORES
                     button(type="button" data-bs-toggle="modal" data-bs-target="#quemadoresModal").btn.btn-primary.btn-modal.btn-servicios Más Información
                     //- ****MODAL***
@@ -183,16 +183,16 @@ block content
                         .modal-dialog.modal-dialog-centered.modal-xl.modal-xl
                             .modal-content
                                 .modal-content-header
-                                    img(src="/images/SVG/circle-chevron-right-solid.svg", alt="")
+                                    img(src="images/SVG/circle-chevron-right-solid.svg", alt="")
                                     p.modal-title#exampleModalLabel MANTENIMIENTO PREVENTIVO Y CORRECTIVO A QUEMADORES
                                 .modal-content-body
                                     .modal-content-body-sidebar 
                                         p MANTENIMIENTO PREVENTIVO
                                         .modal-content-body-sidebar__images
                                             h3 ANTES
-                                            img(src="/images/Single/quemadores1.jpg", alt="").img-fluid
+                                            img(src="images/Single/quemadores1.jpg", alt="").img-fluid
                                             h3 DESPUÉS
-                                            img(src="/images/Single/quemadores2.jpg", alt="").img-fluid
+                                            img(src="images/Single/quemadores2.jpg", alt="").img-fluid
                                     .modal-content-body-content
                                         p Mantenimiento preventivo, correctivo, reparaciones y atención de fallas a quemadores:
                                         ul 
@@ -202,7 +202,7 @@ block content
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
                 .servicios__catalogo__items-item.shadow
-                    img(src="/images/serviciosMobile/carburacionesTesto500x458.jpg").img-fluid
+                    img(src="images/serviciosMobile/carburacionesTesto500x458.jpg").img-fluid
                     p CARBURACIONES CON EQUIPO ANALIZADOR TESTO
                     button(type="button" data-bs-toggle="modal" data-bs-target="#testoModal").btn.btn-primary.btn-modal.btn-servicios Más Información
                     //- ****MODAL***
@@ -210,20 +210,20 @@ block content
                         .modal-dialog.modal-dialog-centered.modal-xl.modal-xl
                             .modal-content
                                 .modal-content-header
-                                    img(src="/images/SVG/circle-chevron-right-solid.svg", alt="")
+                                    img(src="images/SVG/circle-chevron-right-solid.svg", alt="")
                                     p.modal-title#exampleModalLabel CARBURACIONES CON EQUIPO ANALIZADOR TESTO
                                 .modal-content-body
                                     .modal-content-body-sidebar 
                                         p CARBURACIÓN
                                         .modal-content-body-sidebar__images 
-                                            img(src="/images/Single/testo1.jpg").img-fluid
-                                            img(src="/images/Single/testo2.jpg").img-fluid
+                                            img(src="images/Single/testo1.jpg").img-fluid
+                                            img(src="images/Single/testo2.jpg").img-fluid
                                     .modal-content-body-content
                                         p Carburación con equipo analizador de gases de combustión marca Testo para sistemas mecánicos y electrónicos.
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
                 .servicios__catalogo__items-item.shadow
-                    img(src="/images/serviciosMobile/cursos500x458.jpg", alt="").img-fluid
+                    img(src="images/serviciosMobile/cursos500x458.jpg", alt="").img-fluid
                     p CURSO BÁSICO DE OPERACIÓN A CALDERAS
                     button(type="button" data-bs-toggle="modal" data-bs-target="#cursosModal").btn.btn-primary.btn-modal.btn-servicios Más Información
                     //- ****MODAL***
@@ -231,20 +231,20 @@ block content
                         .modal-dialog.modal-dialog-centered.modal-xl.modal-xl
                             .modal-content
                                 .modal-content-header
-                                    img(src="/images/SVG/circle-chevron-right-solid.svg", alt="")
+                                    img(src="images/SVG/circle-chevron-right-solid.svg", alt="")
                                     p.modal-title#exampleModalLabel CURSO BÁSICO DE OPERACIÓN A CALDERAS
                                 .modal-content-body
                                     .modal-content-body-sidebar 
                                         p CURSO DE CALDERAS
                                         .modal-content-body-sidebar__images 
-                                            img(src="/images/Single/curso.jpg").img-fluid
+                                            img(src="images/Single/curso.jpg").img-fluid
                                     .modal-content-body-content
                                         p Cursos de evaluación, capacitación, actualización y asesoría para fogoneros con validez ante S.P.S. y que tienen como finalidad dar cumplimiento ante la Norma Oficial mexicana NOM-020-STPS-2002  así como a la conservación, cuidado y buen uso de las calderas instaladas en las empresas.
 
                                 .modal-footer.modal-content-footer
                                     button(type="button" data-bs-dismiss="modal").btn.btn-secondary Cerrar
                 .servicios__catalogo__items-item.shadow
-                    img(src="/images/serviciosMobile/serviciosAdicionales500x458.jpg").img-fluid
+                    img(src="images/serviciosMobile/serviciosAdicionales500x458.jpg").img-fluid
                     p SERVICIOS ADICIONALES
                     button(type="button" data-bs-toggle="modal" data-bs-target="#adicionalesModal").btn.btn-primary.btn-modal.btn-servicios Más Información
                     //- ****MODAL***
@@ -252,13 +252,13 @@ block content
                         .modal-dialog.modal-dialog-centered.modal-xl.modal-xl
                             .modal-content
                                 .modal-content-header
-                                    img(src="/images/SVG/circle-chevron-right-solid.svg")
+                                    img(src="images/SVG/circle-chevron-right-solid.svg")
                                     p.modal-title#exampleModalLabel SERVICIOS ADICIONALES
                                 .modal-content-body
                                     .modal-content-body-sidebar 
                                         p EMERGENCIAS
                                         .modal-content-body-sidebar__images 
-                                            img(src="/images/Single/emergencias.jpg").img-fluid
+                                            img(src="images/Single/emergencias.jpg").img-fluid
                                     .modal-content-body-content
                                         ul 
                                             li  
