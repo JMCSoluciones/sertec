@@ -4,7 +4,7 @@
     font-family: @font-family1 !important;
     display: flex;
     .form{
-        background-color: @color-text;
+        background-color: @color-gray;
         width: 375px;
         max-width: 400px;
         margin: auto;
@@ -14,7 +14,7 @@
             text-align: center;
             font-size: 1.9rem;
             margin-bottom: .4em;
-            color: @color-white;
+            color: @color-secondary;
         }
         &__container{
             width: 100%;
@@ -24,7 +24,7 @@
            &__input{
                font-family: inherit;
                font-size: 1.6rem;
-               padding: .8em 1em;
+               padding: .2em 1em;
                outline: none;
                border: none;
                border: 1px solid #bbb0b0;
@@ -32,7 +32,7 @@
            }
            &__input--message{
                resize: none;
-               padding: 1.8em .5em;
+               padding: 1em .5em;
                margin-bottom: .5em;
            }
            &__cta{
@@ -56,7 +56,13 @@
     .contacto__form{
         .form{
             padding: 3.5em 1em;
-            margin: 40px auto;
+            margin: 30px;
+            &__container{
+                &__cta{
+                    margin: 0 40px;
+                }
+            }
+            
         }
     }
     

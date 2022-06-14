@@ -981,6 +981,7 @@ body {
   font-weight: 300;
   font-size: 1.8rem;
   margin: 30px;
+  text-align: justify;
 }
 .contacto__box {
   display: -webkit-box;
@@ -1028,6 +1029,30 @@ body {
   color: #ffffff;
   border-radius: 10px;
   width: 200px;
+}
+.contacto__convencer {
+  position: relative;
+  margin: 40px 0 40px 20px;
+  overflow: hidden;
+}
+.contacto__convencer p {
+  position: absolute;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  margin-left: 20px;
+  text-align: center;
+  width: auto;
+  height: 100%;
+  font-size: 1.8rem;
 }
 .privacidad__box {
   font-size: 1.6rem;

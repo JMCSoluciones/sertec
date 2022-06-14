@@ -81,7 +81,7 @@ body {
   display: flex;
 }
 .contacto__form .form {
-  background-color: #4F4B49;
+  background-color: #C4C4C4;
   width: 375px;
   max-width: 400px;
   margin: auto;
@@ -92,7 +92,7 @@ body {
   text-align: center;
   font-size: 1.9rem;
   margin-bottom: 0.4em;
-  color: #ffffff;
+  color: #831d22;
 }
 .contacto__form .form__container {
   width: 100%;
@@ -104,7 +104,7 @@ body {
 .contacto__form .form__container__input {
   font-family: inherit;
   font-size: 1.6rem;
-  padding: 0.8em 1em;
+  padding: 0.2em 1em;
   outline: none;
   border: none;
   border: 1px solid #bbb0b0;
@@ -112,7 +112,7 @@ body {
 }
 .contacto__form .form__container__input--message {
   resize: none;
-  padding: 1.8em 0.5em;
+  padding: 1em 0.5em;
   margin-bottom: 0.5em;
 }
 .contacto__form .form__container__cta {
@@ -129,6 +129,9 @@ body {
 @media (max-width: 450px) {
   .contacto__form .form {
     padding: 3.5em 1em;
-    margin: 40px auto;
+    margin: 30px;
+  }
+  .contacto__form .form__container__cta {
+    margin: 0 40px;
   }
 }
