@@ -1,0 +1,275 @@
+@import "./globals.less";
+@import "./variables.less";
+.index{
+    .slide1__Content{
+        &__box{
+            display: grid !important;
+            grid-template-rows: auto 1fr !important;
+            grid-template-columns: auto auto !important;
+            grid-template-areas: 
+            "ans exp"
+            "btn btn";
+            margin: 50px;
+            // display:flex !important;
+            // flex-direction: row !important;
+            justify-content: center !important;
+            align-items: center !important;
+            &-line1{
+                grid-area: ans;
+                font-size: 10rem !important;
+                border-bottom: none !important;
+                text-align: right;
+            }
+            &-line2{
+                grid-area: exp;
+                font-size: 4rem !important;
+                text-align: left;
+                border-left: 2px solid @color-white;
+                padding-left: 20px;
+                line-height: 6rem;
+                font-weight: @font-light;
+                
+
+
+                strong{
+                    font-weight: @font-bold;
+                    font-size: 6rem;
+                }
+            }
+            a{
+                grid-area: btn;
+                margin: 0 200px;
+            }
+
+        }
+    }
+    .slide2__Content{
+        &__box{
+            display: grid !important;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: 
+            "line1 line2 line3"
+            "a a a";
+            justify-content: center;
+            align-items: center;
+            max-width: 60%;
+            gap:30px;
+            margin-top: 30px;
+
+            &-line1{
+                grid-area: line1;
+                align-self: center;
+                justify-self: center;
+                width: 100% !important;
+                height: 100% !important;
+            }
+            &-line2{
+                grid-area: line2;
+                align-self: center;
+                justify-self: center;
+                width: 100% !important;
+                height: 100% !important;
+
+            }
+            &-line3{
+                grid-area: line3;
+                align-self: center;
+                justify-self: center;
+                width: 100% !important;
+                height: 100% !important;
+            }
+            a{
+                grid-area: a;
+                margin: 0 200px;
+
+            }
+        }
+
+    }
+    .slide3__Content{
+        &__box{
+            display: grid !important;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "line1 a";
+            justify-content: center;
+            align-items: center;
+            &-line1{
+                grid-area: line1;
+                text-align: left !important;
+                width: 100% !important;
+                align-items: flex-start;
+                display: grid !important;
+                font-size: 4rem !important;
+                line-height: 6rem !important;
+                height: unset !important;
+                strong{
+                font-size: 6rem !important;
+
+                }
+
+            }
+
+            a{
+                grid-area: a;
+                margin: 0 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+        }
+    }
+    .slide4__Content{
+        &__box{
+            display: grid !important;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "line1 a";
+            justify-content: center;
+            align-items: center;
+            &-line1{
+                grid-area: line1;
+                text-align: left !important;
+                width: 100% !important;
+                align-items: flex-start;
+                display: grid !important;
+                font-size: 4rem !important;
+                line-height: 6rem !important;
+                height: unset !important;
+                strong{
+                font-size: 6rem !important;
+
+                }
+
+            }
+
+            a{
+                grid-area: a;
+                margin: 0 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+        }
+    }
+    &__contactenos{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-areas: 
+        "txt btn";
+        max-width: 1310px;
+        margin: 0 auto;
+        align-items: center;
+        &__txt{
+            p{
+                grid-area: txt;
+                justify-content: center;
+                font-size: 2.3rem;
+                margin-right: 200px;
+                width: 100%;
+                margin: 0 20px;
+            }
+        }
+        &__btn{
+            grid-area: btn;
+            border-radius: 10px;
+            width: 100%;
+            margin-right: 100px;
+            height: 45px;
+
+        }
+    }
+    &__area{
+        max-width: 1110px;
+        margin: 30px auto;
+        &__acerca{
+            &__box{
+                grid-template-columns: 1fr auto 1fr;
+                grid-template-rows: 1fr;
+            }
+        }
+    }
+}
+.title2{
+    max-width: 1110px;
+    margin: 40px auto !important;
+}
+.empresa{
+    &__content{
+        &-historia{
+            margin-bottom: 40px;
+           p{
+               top: 30px;
+               margin: 20px;
+           }
+        }
+        max-width: 1110px;
+        margin: 20px auto;
+        &__mvv{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+       
+    }
+}
+.servicios{
+    &__necesidades{
+        max-width: 1110px;
+        margin: 20px auto;
+    }
+    &__periodico{
+        max-width: 1110px;
+        margin: 30px auto;
+    }
+    &__catalogo{
+        max-width: 1110px;
+        margin: 40px auto;
+    }
+}
+
+footer{
+    .footer__servirle{
+        justify-content: center;
+    }
+    .footer__box{
+        background-color: @color-text;
+        &__body{
+             max-width: 1920px;
+             margin: 0 auto;
+             display: grid;
+             grid-template-columns: repeat(5, auto);
+             grid-template-rows: 1fr;
+             grid-template-areas: 
+             "enlaces direccion horarios logo facebook";
+            
+            &-logo{
+                grid-area: logo;
+                width: 150px;
+ 
+             }
+            &-links{
+                 grid-area: enlaces;
+                 h2{
+                     text-align: left;
+                 }
+                 li{
+                     margin: 0;
+                     text-align: left;
+                 }
+             }
+            &-shedule{
+                 grid-area: horarios;
+             }
+            &-socialmedia{
+                 grid-area: facebook;  
+             }
+         }
+     }
+}

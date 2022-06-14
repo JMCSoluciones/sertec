@@ -1,0 +1,72 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+.title{
+    text-align: center;
+    color: @color-primary;
+    font-size: @size-title;
+    font-weight: @font-semibold;
+    border-bottom: 5px solid @color-secondary;
+    margin: 40px 0;
+}
+.title2{
+  background-color: @color-primary;
+  color: @color-white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: @font-bold;
+  margin: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.section__header{
+  position: relative;
+  &-content{
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      overflow: hidden;
+      p{
+          align-self: center;
+          justify-self: start;
+          position: absolute;
+          color: @color-white;
+          background-color: rgba(34,34,34,.6);
+          width: 100vw;
+          font-size: 2.6rem;
+          padding: 30px;
+          text-align: left;
+          font-weight: @font-light;
+          line-height: 4.9rem;
+          strong{
+              border-top: 1px solid @color-secondary;
+              font-size: 4.5rem;
+              font-weight: @font-semibold;
+
+          }
+          span{
+              font-weight: @font-bold;
+          }
+
+          
+      }
+  }
+  
+}
+.marcas__propiedad{
+  margin: 40px auto;
+  p{
+    font-size: @size-lg;
+    text-align: justify;
+  }
+}
+

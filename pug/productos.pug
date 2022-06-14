@@ -1,0 +1,298 @@
+extend ../components/template.pug
+block content
+    .productos
+        .section__header
+            .section__header-content
+                picture
+                    source(media="(min-width:1110px)" srcset="/images/JPG/bannerProductos1920x600.jpg")
+                    source(media="(min-width:768px)" srcset="/images/JPG/bannerProductos834x537.jpg")
+                    img(src="/images/JPG/bannerProductos428x374.jpg", alt="Manómetros").img-fluid
+                p PRODUCTOS
+        p.title NUESTROS PRODUCTOS
+        .productos__brindar 
+            p En #[strong SERVICIO TÉCNICO A CALDERAS] no sólo nos preocupamos por brindar servicios de calidad sino también en asegurarnos de encontrar el producto adecuado al ofrecer una amplia gama y variedad de instrumentación, válvulas, controles, refacciones y accesorios originales nacionales e importados que garantizarán la seguridad, precisión y el excelente funcionamiento de sus equipos. #[br] #[br]En nuestro catálogo se enlistan algunos ejemplos de los materiales y refacciones que manejamos.
+        .carousel__marcas
+            include ../marcas.html
+        p.title2 CATÁLOGO DE PRODUCTOS
+        .productos__catalogo 
+            .accordion#accordionPanelsStayOpenExample
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingOne
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelAislantes" aria-expanded="true" aria-controls="panelAislantes").accordion-button AISLANTES
+                    .accordion-collapse.collapse.show(aria-labelledby="panelsStayOpen-headingOne")#panelAislantes
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/blockAislante.jpg", alt="Block aislante").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Block aislante
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/mediaCana600x600.jpg", alt="Block aislante").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Media caña 
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/rolloDeLamina600x600.jpg", alt="Block aislante").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Rollo de lámina
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingTwo
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelBombeo" aria-expanded="true" aria-controls="panelBombeo").accordion-button.collapsed BOMBAS INDUSTRIALES Y EQUIPO DE BOMBEO
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingTwo")#panelBombeo
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/bombasParaAgua600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Bombas para agua
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/bombasCombustoleo600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Bombas para combustóleo 
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/equipoBOMBEO600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Equipo de bombeo
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingThree
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelEmpaquetaduras" aria-expanded="true" aria-controls="panelEmpaquetaduras").accordion-button.collapsed EMPAQUETADURAS
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingThree")#panelEmpaquetaduras
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/empaqueRegistro600x600.jpg", alt="Block aislante").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Empaque registro
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/empaqueTadPole.jpg", alt="TAD POLE").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Empaque tad pole 
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/grafito600x600.jpg", alt="Grafito en polvo").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Grafito en polvo
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingFour
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelEscobillones" aria-expanded="true" aria-controls="panelEscobillones").accordion-button.collapsed ESCOBILLONES
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingFour")#panelEscobillones
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/escobillon1Plug.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p 1"
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/escobillon2pulgadas-1.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p 2"
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/Escobillon2media-1.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p 2 1/2"      
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingFive
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelFiltros" aria-expanded="true" aria-controls="panelFiltros").accordion-button.collapsed FILTROS
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingFive")#panelFiltros
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/filtroAireCompresor600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Filtro de aire compresor
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/filtroNavajas600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Filtro de navajas
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/FiltroTipoY-1.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Filtro tipo Y  
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingSix
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelIgnicion" aria-expanded="true" aria-controls="panelIgnicion").accordion-button.collapsed IGNICIÓN
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingSix")#panelIgnicion
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/Cable-1.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Cables
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/Electrodos.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Electrodos
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/Transformador.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Transformador
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingSeven
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelInstrumentacion" aria-expanded="true" aria-controls="panelInstrumentacion").accordion-button.collapsed INSTRUMENTACIÓN
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingSeven")#panelInstrumentacion
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/Honeywell.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Honeywell
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/Manometro.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Manómetros
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/termometroRochester600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Termómetros  
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingEight
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelMirillas" aria-expanded="true" aria-controls="panelMirillas").accordion-button.collapsed MIRILLAS
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingEight")#panelMirillas
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/micaMirilla600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Cristal mirilla
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/mirilla600x600.jpeg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Mica mirilla
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/mirilla.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Mirilla tapa trasera 
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingNine
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelQuemadores" aria-expanded="true" aria-controls="panelQuemadores").accordion-button.collapsed QUEMADORES
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingNine")#panelQuemadores
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/aranaAluminio.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Araña de aluminio
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/canastaDifusora.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Canasta difusora
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/conjuntoBoquilla.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Conjunto boquilla 
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingTen
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelQuimicos" aria-expanded="true" aria-controls="panelQuimicos").accordion-button.collapsed QUÍMICOS PARA CALDERAS Y ALBERCAS
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingTen")#panelQuimicos
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/desincrustante600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Desincrustante
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/resina.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Resina catiónica
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/kitReactivos.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Reactivos para determinar la dureza 
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingEleven
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelRefractarios" aria-expanded="true" aria-controls="panelRefractarios").accordion-button.collapsed REFRACTARIOS
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingEleven")#panelRefractarios
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/ladrilloRefractario.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Ladrillo refractario
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/MORTERO.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Mortero
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/KS24600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p KS4
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingTwelve
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelPaileria" aria-expanded="true" aria-controls="panelPaileria").accordion-button.collapsed PAILERÍA Y TANQUES
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingTwelve")#panelPaileria
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/chimenea600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Chimenea
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/colectorHolling600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Colector de hollín
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/tanqueCondensados600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Tanque de condensados
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingTherteen
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelTuberia" aria-expanded="true" aria-controls="panelTuberia").accordion-button.collapsed TUBERÍA
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingTherteen")#panelTuberia
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/espejo600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Espejo
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/hogar600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Hogar
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/tuboFlux600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Tubo flux
+                .acccordion-item
+                    h2.accordion-header#panelsStayOpen-headingFourteen
+                        button(type="button" data-bs-toggle="collapse" data-bs-target="#panelValvulas" aria-expanded="true" aria-controls="panelValvulas").accordion-button.collapsed VÁLVULAS
+                    .accordion-collapse.collapse(aria-labelledby="panelsStayOpen-headingFourteen")#panelValvulas
+                        .accordion-body
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/valvulaFlujo600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Válvula tipo Y
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/valvulaNivel600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Válvula de nivel
+                            .accordion-body__box
+                                .accordion-body__box-img
+                                    img(src="/images/Products/valvulaSeguridad600x600.jpg").accordion-body__box__img.img-fluid
+                                .accordion-body__box-txt
+                                    p Válvula de seguridad
