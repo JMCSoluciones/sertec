@@ -1030,8 +1030,9 @@ footer .footer__servirle .line1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: En;
-  text-align: left;
+  text-align: right;
   margin-bottom: 0;
+  margin-right: 5px;
 }
 footer .footer__servirle img {
   -ms-grid-row: 1;
@@ -1044,6 +1045,7 @@ footer .footer__servirle .line2 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: txt;
+  text-align: center;
 }
 footer .footer__header {
   background-color: #000000;
