@@ -407,7 +407,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 64px;
+  max-height: 85px;
   font-size: 1.8rem;
   margin-top: 10px;
   gap: 5px;
