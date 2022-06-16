@@ -74,6 +74,10 @@ body {
   font-size: 1.8rem;
   text-align: justify;
 }
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1 !important;
+}
 .menu-top {
   display: -webkit-box;
   display: -ms-flexbox;
