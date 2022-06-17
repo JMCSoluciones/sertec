@@ -74,6 +74,17 @@ body {
   font-size: 1.8rem;
   text-align: justify;
 }
+.ir-arriba {
+  display: none;
+  padding: 20px;
+  background-color: #831d22;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
 .carousel-control-next,
 .carousel-control-prev {
   opacity: 1 !important;
@@ -571,7 +582,8 @@ body {
   font-size: 2rem;
   text-align: justify;
   font-weight: 300;
-  padding: 30px;
+  line-height: 3.2rem;
+  margin: 40px 30px ;
 }
 .index__area__experiencia-txt p strong {
   font-weight: 800;
@@ -605,7 +617,8 @@ body {
   display: -ms-grid;
   display: grid;
 }
-.index__area__prioridad__items-item {
+.index__area__prioridad__items-item a {
+  text-decoration: none;
   margin: 40px;
   border: 5px solid #000000;
   border-radius: 20px;
@@ -617,8 +630,9 @@ body {
   -ms-grid-rows: 3fr 1fr;
   grid-template-rows: 3fr 1fr;
       grid-template-areas: "image" "txt";
+  cursor: pointer;
 }
-.index__area__prioridad__items-item .box-img {
+.index__area__prioridad__items-item a .box-img {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: image;
@@ -638,7 +652,7 @@ body {
           justify-content: center;
   padding: 40px;
 }
-.index__area__prioridad__items-item .box-txt {
+.index__area__prioridad__items-item a .box-txt {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -656,7 +670,7 @@ body {
   border-radius: 0 0 15px 15px;
   height: 100%;
 }
-.index__area__prioridad__items-item .box-txt p {
+.index__area__prioridad__items-item a .box-txt p {
   text-align: center;
   font-size: 2.8rem;
   color: #ffffff;
@@ -718,6 +732,7 @@ body {
 }
 .empresa__content__mvv-box {
   height: 650px;
+  border: 1px solid #C4C4C4;
   margin: 20px 10px;
   border-radius: 10px;
   padding: 20px;

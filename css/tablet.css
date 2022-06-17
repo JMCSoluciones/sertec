@@ -74,6 +74,18 @@ body {
   font-size: 1.8rem;
   text-align: justify;
 }
+.ir-arriba {
+  display: none;
+  background-repeat: no-repeat;
+  font-size: 4em;
+  color: #32a2b8;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  left: 700px;
+  z-index: 2;
+  opacity: 0.6;
+}
 .title {
   margin: 48px auto;
   width: 100%;

@@ -74,6 +74,9 @@ body {
   font-size: 1.8rem;
   text-align: justify;
 }
+.ir-arriba {
+  display: none;
+}
 .index .slide1__Content__box {
   display: -ms-grid !important;
   display: grid !important;
