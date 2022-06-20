@@ -67,13 +67,6 @@ body {
 .section__header-content p span {
   font-weight: 800;
 }
-.marcas__propiedad {
-  margin: 40px auto;
-}
-.marcas__propiedad p {
-  font-size: 1.8rem;
-  text-align: justify;
-}
 .ir-arriba {
   display: none;
   padding: 5px;
@@ -146,6 +139,7 @@ body {
 }
 .marcas__propiedad p {
   text-align: center;
+  font-size: 1.8rem;
 }
 .marcas__propiedad {
   margin: 40px auto;
@@ -815,7 +809,7 @@ body {
 }
 .servicios__necesidades p {
   text-align: justify;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 .servicios__periodico {
