@@ -67,6 +67,13 @@ body {
 .section__header-content p span {
   font-weight: 800;
 }
+.marcas__propiedad {
+  margin: 40px auto;
+}
+.marcas__propiedad p {
+  font-size: 1.8rem;
+  text-align: justify;
+}
 .contacto__form {
   font-family: 'Inter', sans-serif !important;
   display: -webkit-box;
