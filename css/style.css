@@ -1004,7 +1004,7 @@ body {
 .calderas__venta p {
   font-size: 2rem;
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
 }
 .contacto {
   color: #4F4B49;
@@ -1020,7 +1020,7 @@ body {
   font-weight: 600;
 }
 .contacto__txt p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2rem;
   margin: 30px;
   text-align: justify;
