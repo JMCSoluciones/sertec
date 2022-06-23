@@ -77,14 +77,17 @@
       margin-bottom: 10px;
       .carousel-item{
         position: relative !important;
-        display: inline-block !important;
+        // display: inline-block !important;  
+        display: grid; 
+        height: 100%;
+        width: 100%;
         .slideA__Content{
+          display: flex;
+          position: absolute;
+         align-self: center;
           &__box{
-            position: absolute;
-            top: 0;
-            height: 100%;
+            height: 75%;
             width: 100%;
-            z-index: 1;
             overflow: hidden;
             background-color: rgba(255,255,255,.65);
             display: flex;
@@ -92,7 +95,7 @@
             justify-content: center;
             align-items: center;
             .slideA_logo{
-              margin: 15px 50px;
+              margin: 0px 10px;
             }
             p{
               font-family: @font-family3;
@@ -104,16 +107,7 @@
               width: 200px;
               margin: 15px 50px;
             }
-            &-cta{
-              color: @color-white;
-              background-color: @color-secondary;
-              text-decoration: none;
-              font-size: @size-lg;
-              text-align: center;
-              padding: 10px 30px;
-              border-radius: 10px;
-              margin: 15px 50px;
-            }
+           
 
           }
         }
@@ -131,17 +125,33 @@
             justify-content: center;
             align-items: center;
             p{
-              font-family: @font-family3;
+              font-family: @font-family1;
+              font-weight: @font-extralight;
               font-size: 3.5rem;
               text-align: center;
-              margin: 10px 50px;
-              line-height: 3.3rem;
+              margin: 0px 50px;
+              line-height: 4rem;
+              strong{
+                font-weight: @font-bold;
+              }
 
    
             }
-            .slideA_logoCleaver{
-              width: 200px;
+            .slideB_logoCleaver{
               margin: 10px 50px;
+            }
+            &-cta{
+              background-color: @color-secondary;
+              color: @color-white;
+              text-decoration: none;
+              font-size: @size-md;
+              margin-top: 20px;
+              padding: 10px 30px;
+              border-radius: 10px;
+              position: absolute;
+              bottom: 12px;
+              width: 180px;
+              text-align: center;
             }
 
 
@@ -347,23 +357,26 @@
       font-size: 1.8rem;
       margin-top: 10px;
       gap: 5px;
+      align-items: center;
+      justify-content: center;
        &__txt{
-         width: 65%;
+         width: 100%;
          height: 100%;
          color: @color-white;
          display: flex;
-         justify-content: center;
+         justify-content: flex-start;
+         align-items: center;
 
          img{
-           width: 100%;
+           max-height: 90px;
          }
          p{   
           position: absolute;
           padding: 5px 10px;
           line-height: 2rem;
           font-size: 1.6rem;
-          width: 60%;
           margin-bottom: 0 !important;
+          width: 75%;
          }
        }
        &__btn{
