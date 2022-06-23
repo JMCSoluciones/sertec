@@ -31,6 +31,9 @@
         font-weight: @font-semibold;
     }
   }
+  .modal-footer{
+    justify-content: center !important;
+  }
   .carousel__marcas{
     width: 90%;
     display: grid;
@@ -75,6 +78,75 @@
       .carousel-item{
         position: relative !important;
         display: inline-block !important;
+        .slideA__Content{
+          &__box{
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            overflow: hidden;
+            background-color: rgba(255,255,255,.65);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .slideA_logo{
+              margin: 15px 50px;
+            }
+            p{
+              font-family: @font-family3;
+              font-size: 2.2rem;
+              text-align: center;
+              margin: 15px 50px;
+            }
+            .slideA_logoTermiz{
+              width: 200px;
+              margin: 15px 50px;
+            }
+            &-cta{
+              color: @color-white;
+              background-color: @color-secondary;
+              text-decoration: none;
+              font-size: @size-lg;
+              text-align: center;
+              padding: 10px 30px;
+              border-radius: 10px;
+              margin: 15px 50px;
+            }
+
+          }
+        }
+        .slideB__Content{
+          &__box{
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            overflow: hidden;
+            background-color: rgba(255,255,255,.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+              font-family: @font-family3;
+              font-size: 3.5rem;
+              text-align: center;
+              margin: 10px 50px;
+              line-height: 3.3rem;
+
+   
+            }
+            .slideA_logoCleaver{
+              width: 200px;
+              margin: 10px 50px;
+            }
+
+
+          }
+        }
         .slide1__Content{
          display: flex;
          flex-direction: column;
@@ -701,7 +773,7 @@
                       list-style: none;
                       p{
                         text-align: left;
-                        font-size: @size-lg;
+                        font-size: @size-xl;
                         margin: 5px;
 
 
@@ -712,7 +784,7 @@
                 }
               }
               &-footer{
-
+                justify-content: center !important;
               }
             }
           }
