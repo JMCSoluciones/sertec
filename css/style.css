@@ -158,14 +158,23 @@ body {
 }
 .index .carousel-inner .carousel-item {
   position: relative !important;
-  display: inline-block !important;
-}
-.index .carousel-inner .carousel-item .slideA__Content__box {
-  position: absolute;
-  top: 0;
+  display: -ms-grid;
+  display: grid;
   height: 100%;
   width: 100%;
-  z-index: 1;
+}
+.index .carousel-inner .carousel-item .slideA__Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.index .carousel-inner .carousel-item .slideA__Content__box {
+  height: 75%;
+  width: 100%;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.65);
   display: -webkit-box;
@@ -183,7 +192,7 @@ body {
           align-items: center;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box .slideA_logo {
-  margin: 15px 50px;
+  margin: 0px 10px;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box p {
   font-family: 'Poppins', sans-serif;
@@ -193,16 +202,6 @@ body {
 }
 .index .carousel-inner .carousel-item .slideA__Content__box .slideA_logoTermiz {
   width: 200px;
-  margin: 15px 50px;
-}
-.index .carousel-inner .carousel-item .slideA__Content__box-cta {
-  color: #ffffff;
-  background-color: #831d22;
-  text-decoration: none;
-  font-size: 1.8rem;
-  text-align: center;
-  padding: 10px 30px;
-  border-radius: 10px;
   margin: 15px 50px;
 }
 .index .carousel-inner .carousel-item .slideB__Content__box {
@@ -228,15 +227,31 @@ body {
           align-items: center;
 }
 .index .carousel-inner .carousel-item .slideB__Content__box p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 100;
   font-size: 3.5rem;
   text-align: center;
-  margin: 10px 50px;
-  line-height: 3.3rem;
+  margin: 0px 50px;
+  line-height: 4rem;
 }
-.index .carousel-inner .carousel-item .slideB__Content__box .slideA_logoCleaver {
-  width: 200px;
+.index .carousel-inner .carousel-item .slideB__Content__box p strong {
+  font-weight: 800;
+}
+.index .carousel-inner .carousel-item .slideB__Content__box .slideB_logoCleaver {
   margin: 10px 50px;
+}
+.index .carousel-inner .carousel-item .slideB__Content__box-cta {
+  background-color: #831d22;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 12px;
+  width: 180px;
+  text-align: center;
 }
 .index .carousel-inner .carousel-item .slide1__Content {
   display: -webkit-box;
@@ -518,28 +533,37 @@ body {
   font-size: 1.8rem;
   margin-top: 10px;
   gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .index__contactenos__txt {
-  width: 65%;
+  width: 100%;
   height: 100%;
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .index__contactenos__txt img {
-  width: 100%;
+  max-height: 90px;
 }
 .index__contactenos__txt p {
   position: absolute;
   padding: 5px 10px;
   line-height: 2rem;
   font-size: 1.6rem;
-  width: 60%;
   margin-bottom: 0 !important;
+  width: 75%;
 }
 .index__contactenos__btn {
   background-color: #831d22;
