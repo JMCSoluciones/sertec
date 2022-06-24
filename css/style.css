@@ -365,7 +365,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 10px;
-  width: ;
 }
 .index .carousel-inner .carousel-item .slide2__Content__box-line4 {
   background-color: #831d22;
@@ -526,62 +525,26 @@ body {
 }
 .index__contactenos {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-height: 85px;
-  font-size: 1.8rem;
-  margin-top: 10px;
-  gap: 5px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 20px 20px 20px 0px;
+  overflow: hidden;
 }
-.index__contactenos__txt {
-  width: 100%;
-  height: 100%;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.index__contactenos__txt img {
-  max-height: 59px;
-  width: 340px;
-}
-.index__contactenos__txt p {
+.index__contactenos p {
   position: absolute;
-  padding: 5px 10px;
-  line-height: 2rem;
-  font-size: 1.6rem;
-  margin-bottom: 0 !important;
-  width: 75%;
-}
-.index__contactenos__btn {
-  background-color: #831d22;
-  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  color: #ffffff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-.index__contactenos__btn a {
-  text-decoration: none;
-  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.8rem;
+  width: auto;
+  top: 0;
+  margin: 0px 10px 0px 5px;
+  text-align: center;
 }
 .index__area__acerca .title {
   width: 90%;
