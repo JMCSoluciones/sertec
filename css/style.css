@@ -231,7 +231,7 @@ body {
   font-weight: 100;
   font-size: 3.5rem;
   text-align: center;
-  margin: 0px 50px;
+  margin: 95px 50px 0px 50px;
   line-height: 4rem;
 }
 .index .carousel-inner .carousel-item .slideB__Content__box p strong {
@@ -555,7 +555,8 @@ body {
           align-items: center;
 }
 .index__contactenos__txt img {
-  max-height: 90px;
+  max-height: 59px;
+  width: 340px;
 }
 .index__contactenos__txt p {
   position: absolute;
