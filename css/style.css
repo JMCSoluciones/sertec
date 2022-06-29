@@ -231,7 +231,7 @@ body {
   font-weight: 100;
   font-size: 3.5rem;
   text-align: center;
-  margin: 95px 50px 0px 50px;
+  margin: 0px 50px;
   line-height: 4rem;
 }
 .index .carousel-inner .carousel-item .slideB__Content__box p strong {
@@ -249,7 +249,7 @@ body {
   padding: 10px 30px;
   border-radius: 10px;
   position: absolute;
-  bottom: 12px;
+  bottom: 32px;
   width: 180px;
   text-align: center;
 }
@@ -270,7 +270,7 @@ body {
 }
 .index .carousel-inner .carousel-item .slide1__Content__box {
   position: absolute;
-  top: -4px;
+  top: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,6 +294,7 @@ body {
   font-family: 'Allura', sans-serif;
   border-bottom: 2px solid #ffffff;
   padding: 0;
+  line-height: 8rem;
 }
 .index .carousel-inner .carousel-item .slide1__Content__box-line2 {
   font-size: 3rem;
