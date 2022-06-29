@@ -958,12 +958,14 @@ body {
   -ms-grid-column-align: center;
       justify-self: center;
 }
-.servicios__catalogo__items-item .modal-content-close button {
+.servicios__catalogo__items-item .modal-content-close {
+  position: relative;
+}
+.servicios__catalogo__items-item .modal-content-close a img {
   position: absolute;
-  font-size: 2rem;
-  margin: 0;
+  margin: 10px 7px;
   right: 5px;
-  width: auto;
+  width: 20px;
 }
 .servicios__catalogo__items-item .modal-content-header {
   display: -webkit-box;
