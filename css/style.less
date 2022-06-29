@@ -814,13 +814,14 @@
             border: 2px solid @color-primary;
             border-radius: 10px;
             margin: 20px;
-            height: 400px;
+            max-height: 395px;
             display: grid;
-            overflow: hidden;
+            // overflow: hidden;
             &-img{
-              margin: 20px;
+              margin: 15px 20px;
             }
             &-txt{
+              border: 4px solid @color-primary;
               background-color: @color-primary;
               color: @color-white;
               text-align: center;
@@ -830,7 +831,10 @@
               align-items: center;
               justify-content: center;
               height: 80px;
-              border-radius: 0 0 5px 5px;            
+              border-radius: 0 0 10px 10px; 
+              p{
+                margin-bottom: 0;
+              }           
             }
           }
         }     
