@@ -12,6 +12,9 @@
 	right:20px;
   z-index: 1;
 }
+.carousel-indicators {
+  margin-bottom: 1.5rem !important;
+}
 .carousel-control-next, .carousel-control-prev{
   opacity: 1 !important;
 }
@@ -569,12 +572,14 @@
     &__content{
       &-historia{
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         picture{
-          
+          height: auto;
         }
         p{
           position: absolute;
-          top: 0;
           color: @color-white;
           padding: 30px;
           text-align: justify;
