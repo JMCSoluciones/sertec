@@ -67,6 +67,11 @@ body {
 .section__header-content p span {
   font-weight: 800;
 }
+.accordion-button::after {
+  width: 2rem !important;
+  height: 2rem !important;
+  background-size: 2rem !important;
+}
 .ir-arriba {
   display: none;
   padding: 5px;
