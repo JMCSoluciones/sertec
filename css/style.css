@@ -316,7 +316,7 @@ body {
   padding: 10px 30px;
   border-radius: 10px;
   position: absolute;
-  bottom: 26px;
+  bottom: 43px;
   width: 180px;
 }
 .index .carousel-inner .carousel-item .slide2__Content {
@@ -928,6 +928,7 @@ body {
 }
 .servicios__periodico p strong {
   font-weight: 600;
+  font-size: 2.6rem;
 }
 .servicios__catalogo__items {
   display: -ms-grid;
