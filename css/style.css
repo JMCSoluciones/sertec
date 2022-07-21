@@ -1477,3 +1477,11 @@ footer .footer__foot .rights p {
   text-align: center;
   margin: 0;
 }
+@media (max-width: 400px) {
+  .index .carousel-inner .carousel-item .slide2__Content__box {
+    top: 0;
+  }
+  .index .carousel-inner .carousel-item .slide2__Content__box-line4 {
+    margin-bottom: 6px;
+  }
+}
