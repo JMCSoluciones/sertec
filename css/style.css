@@ -1480,3 +1480,26 @@ footer .footer__foot .rights p {
   text-align: center;
   margin: 0;
 }
+@media (max-width: 400px) {
+  .index .carousel-inner .carousel-item .slide2__Content__box {
+    top: 0;
+  }
+  .index .carousel-inner .carousel-item .slide2__Content__box-line4 {
+    margin-bottom: 6px;
+  }
+  .index__area__experiencia-txt p {
+    margin: 15px 30px;
+  }
+  .index__area__elegirnos__items-item p {
+    font-size: 1.8rem;
+  }
+  .empresa__content-historia p {
+    padding: 5px 30px;
+  }
+  .empresa__content__mvv-box {
+    height: 710px;
+  }
+  .productos__catalogo .accordion-body__box {
+    border-radius: 15px !important;
+  }
+}
