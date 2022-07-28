@@ -75,6 +75,8 @@ body {
   display: none !important;
 }
 .carousel__tablet {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
   display: inline;
 }
 .carousel__tablet .carousel-inner .carousel-item {
