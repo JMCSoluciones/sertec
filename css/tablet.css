@@ -79,15 +79,6 @@ body {
   border-bottom: 2px solid #000000;
   display: inline;
 }
-.carousel__tablet .carousel-inner .carousel-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
 .index .slideA__Content {
   width: 100%;
 }
