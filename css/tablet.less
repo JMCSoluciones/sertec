@@ -264,13 +264,14 @@ footer{
             grid-template-rows: 1fr 1fr;
             grid-template-areas: 
             "enlaces direccion facebook"
-            "enlaces horarios logo";
+            "horarios logo logo";
             flex-direction: row;
-            align-items: center;
+            align-items: baseline;
             justify-content: space-evenly;
             &-logo{
             grid-area: logo;
-            width: 150px;
+            width: 100%;
+            margin: 30px;
 
             }
             &-links{

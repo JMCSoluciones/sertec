@@ -329,27 +329,28 @@ footer .footer__box__body {
   grid-template-columns: repeat(3, auto);
   -ms-grid-rows: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-      grid-template-areas: "enlaces direccion facebook" "enlaces horarios logo";
+      grid-template-areas: "enlaces direccion facebook" "horarios logo logo";
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 footer .footer__box__body-logo {
   -ms-grid-row: 2;
-  -ms-grid-column: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
   grid-area: logo;
-  width: 150px;
+  width: 100%;
+  margin: 30px;
 }
 footer .footer__box__body-links {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: enlaces;
 }
@@ -362,7 +363,7 @@ footer .footer__box__body-links li {
 }
 footer .footer__box__body-shedule {
   -ms-grid-row: 2;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   grid-area: horarios;
 }
 footer .footer__box__body-socialmedia {
