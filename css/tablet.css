@@ -68,7 +68,7 @@ body {
   font-weight: 800;
 }
 .title {
-  margin: 48px auto;
+  margin: 15px auto !important;
   width: 100%;
 }
 .carousel__mobile {
@@ -79,12 +79,15 @@ body {
   border-bottom: 2px solid #000000;
   display: inline;
 }
+.marcas__propiedad p {
+  font-size: 1.4rem;
+}
 .index .slideA__Content {
   width: 100%;
 }
 .index .slideA__Content__box img {
-  max-width: 80%;
-  margin: 10px;
+  max-width: 75%;
+  margin: 15px 34px !important;
 }
 .index .slideB__Content__box-cta {
   bottom: 28px !important;
@@ -163,9 +166,9 @@ body {
   margin: 30px;
 }
 .index__area__experiencia-img {
-  margin: 28px;
+  margin: 10px;
   top: 0;
-  max-width: 169px;
+  max-width: 197px;
   right: 60px;
 }
 .index__area__prioridad__title {
@@ -209,6 +212,9 @@ body {
 .index__area__elegirnos__items-item p {
   font-size: 1.6rem;
 }
+.empresa__content-historia p {
+  padding: 50px 30px;
+}
 .empresa__content__mvv-box {
   height: 477px;
   display: -webkit-box;
@@ -224,6 +230,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.empresa__content__mvv-box ul li {
+  margin: 5px auto;
+}
+.servicios__periodico p {
+  width: 695px;
 }
 .servicios__catalogo__items {
   display: -ms-grid;
@@ -241,7 +253,7 @@ body {
   max-height: 268px;
 }
 .productos .accordion-body__box-txt {
-  border-radius: 0 0 5px 5px !important;
+  border-radius: 0 0 4px 4px !important;
 }
 .contacto__box {
   display: -ms-grid;
@@ -262,6 +274,9 @@ body {
 .contacto__convencer p {
   margin-left: 0;
   margin-right: 20px;
+}
+.contacto .form__container__cta {
+  margin: 0 70px !important;
 }
 footer .footer__servirle {
   display: -webkit-box !important;
@@ -316,29 +331,24 @@ footer .footer__box__body {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[3];
-  grid-template-columns: repeat(3, auto);
-  -ms-grid-rows: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-      grid-template-areas: "enlaces direccion facebook" "horarios logo logo";
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-grid-columns: (auto)[2];
+  grid-template-columns: repeat(2, auto);
+  -ms-grid-rows: (auto)[3];
+  grid-template-rows: repeat(3, auto);
+      grid-template-areas: "enlaces direccion" "horarios facebook" "logo logo";
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 footer .footer__box__body-logo {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: logo;
-  width: 100%;
-  margin: 30px;
+  width: 60%;
+  margin: 0 auto;
 }
 footer .footer__box__body-links {
   -ms-grid-row: 1;
@@ -358,7 +368,7 @@ footer .footer__box__body-shedule {
   grid-area: horarios;
 }
 footer .footer__box__body-socialmedia {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
   grid-area: facebook;
 }

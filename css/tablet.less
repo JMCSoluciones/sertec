@@ -14,7 +14,7 @@
 //   }
   
 .title{
-    margin: 48px auto;
+    margin: 15px auto !important;
     width: 100%;
 }
 .carousel__mobile{
@@ -25,13 +25,16 @@
     border-bottom: 2px solid @color-primary;
     display: inline;
 }
+.marcas__propiedad p{
+    font-size: @size-md;
+  }
 .index{
     .slideA__Content{
         width: 100%;
         &__box{
             img{
-                max-width: 80%;
-                margin: 10px;
+                max-width: 75%;
+                margin: 15px 34px !important;
             }
             
         }
@@ -115,9 +118,9 @@
 
             }
             &-img{
-                margin: 28px;
+                margin: 10px;
                 top: 0;
-                max-width: 169px;
+                max-width: 197px;
                 right: 60px;
 
                 img{
@@ -166,6 +169,9 @@
 .empresa{
     &__content
     {
+        &-historia p{
+            padding: 50px 30px;
+        }
         &__mvv{
             &-box
             {
@@ -174,11 +180,18 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+
+                ul li{
+                    margin: 5px auto;
+                }
             }
         }
     }
 }
 .servicios{
+    &__periodico p{
+        width: 695px;
+    }
     &__catalogo{
         &__items{
             display: grid;
@@ -194,7 +207,7 @@
     .accordion-body__box{
         max-height: 268px;
         &-txt{
-            border-radius: 0 0 5px 5px !important;
+            border-radius: 0 0 4px 4px !important;
         }
     }
 }
@@ -212,6 +225,9 @@
             margin-left: 0;
             margin-right: 20px;
         }
+    }
+    .form__container__cta{
+        margin: 0 70px !important;
     }
 }
 footer{
@@ -254,18 +270,18 @@ footer{
             max-width: 1110px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(3, auto);
-            grid-template-rows: 1fr 1fr;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(3,auto);
             grid-template-areas: 
-            "enlaces direccion facebook"
-            "horarios logo logo";
-            flex-direction: row;
+            "enlaces direccion"
+            "horarios facebook"
+            "logo logo";
             align-items: baseline;
-            justify-content: space-evenly;
+            justify-content: space-around;
             &-logo{
             grid-area: logo;
-            width: 100%;
-            margin: 30px;
+            width: 60%;
+            margin: 0 auto;
 
             }
             &-links{
