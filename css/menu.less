@@ -40,7 +40,7 @@ ul{
     }
     &__link{
         color: @color-primary;
-        font-size: @font-size-sm;
+        font-size: @size-sm;
         font-weight: @font-semibold;
         text-decoration: none;
         padding: 0 30px;
@@ -157,4 +157,17 @@ ul{
         }
     
     }
-} 
+}
+@media screen and (min-width: 1100px){
+    header{
+        .menu-top{
+            max-width: 1110px;
+        }
+        .menu{
+            &__container{
+                max-width: 1110px;
+            }
+        }
+    }
+
+}

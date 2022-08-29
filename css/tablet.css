@@ -90,7 +90,7 @@ body {
   margin: 15px 34px !important;
 }
 .index .slideB__Content__box-cta {
-  bottom: 28px !important;
+  bottom: 28px;
 }
 .index .slide2__Content__box-line4 {
   margin-top: 14px;

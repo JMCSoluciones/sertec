@@ -70,6 +70,39 @@ body {
 .ir-arriba {
   display: none;
 }
+.index .slideA__Content__box img {
+  width: 400px;
+  overflow: hidden;
+}
+.index .slideB__Content__box {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto ;
+  grid-template-rows: auto auto ;
+      grid-template-areas: "somos boton" "cleaver boton";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.index .slideB__Content__box-cta {
+  bottom: 0 ;
+}
+.index .slideB__Content__box p {
+  grid-area: 'somos';
+  text-align: left;
+}
+.index .slideB__Content__box img {
+  grid-area: 'cleaver';
+}
+.index .slideB__Content__box a {
+  grid-area: 'boton';
+}
 .index .slide1__Content__box {
   display: -ms-grid !important;
   display: grid !important;
@@ -78,6 +111,7 @@ body {
   -ms-grid-columns: auto auto !important;
   grid-template-columns: auto auto !important;
       grid-template-areas: "ans exp" "btn btn";
+  top: 0;
   margin: 50px;
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
@@ -132,7 +166,7 @@ body {
           align-items: center;
   max-width: 60%;
   gap: 30px;
-  margin-top: 30px;
+  top: 0;
 }
 .index .slide2__Content__box-line1 {
   -ms-grid-row: 1;
@@ -172,7 +206,7 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 5;
   grid-area: a;
-  margin: 0 200px;
+  margin: 0 auto;
 }
 .index .slide3__Content__box {
   display: -ms-grid !important;
@@ -212,16 +246,14 @@ body {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: a;
-  margin: 0 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin: 0 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  bottom: unset !important;
 }
 .index .slide4__Content__box {
   display: -ms-grid !important;
@@ -261,16 +293,14 @@ body {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: a;
-  margin: 0 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin: 0 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  bottom: unset !important;
 }
 .index__contactenos {
   display: -ms-grid;
