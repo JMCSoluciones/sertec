@@ -13,7 +13,6 @@
 
         }
     }
-
     .slideB__Content{
         &__box{
             &-cta{
@@ -44,13 +43,13 @@
     .slide1__Content{
         &__box{
             display: grid !important;
-            grid-template-rows: auto 1fr !important;
+            grid-template-rows: auto auto !important;
             grid-template-columns: auto auto !important;
             grid-template-areas: 
             "ans exp"
             "btn btn";
-            top: 0;
-            margin: 50px;
+            top: 170px !important;
+            height: 50% !important;
             // display:flex !important;
             // flex-direction: row !important;
             justify-content: center !important;
@@ -74,9 +73,11 @@
                     font-size: 6rem;
                 }
             }
+        
             a{
                 grid-area: btn;
-                margin: 0 200px;
+                margin: 0 auto;
+                position: unset !important;
             }
 
         }

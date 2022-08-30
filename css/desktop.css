@@ -106,13 +106,13 @@ body {
 .index .slide1__Content__box {
   display: -ms-grid !important;
   display: grid !important;
-  -ms-grid-rows: auto 1fr !important;
-  grid-template-rows: auto 1fr !important;
+  -ms-grid-rows: auto auto !important;
+  grid-template-rows: auto auto !important;
   -ms-grid-columns: auto auto !important;
   grid-template-columns: auto auto !important;
       grid-template-areas: "ans exp" "btn btn";
-  top: 0;
-  margin: 50px;
+  top: 170px !important;
+  height: 50% !important;
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
@@ -148,7 +148,8 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: btn;
-  margin: 0 200px;
+  margin: 0 auto;
+  position: unset !important;
 }
 .index .slide2__Content__box {
   display: -ms-grid !important;
