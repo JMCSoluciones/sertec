@@ -10,7 +10,7 @@ html {
 body {
   font-family: 'Inter', sans-serif;
 }
-.title {
+/* .title {
   text-align: center;
   color: #000000;
   font-size: 3rem;
@@ -27,7 +27,7 @@ body {
   margin: 30px;
   border-radius: 5px;
   padding: 10px;
-}
+} */
 .section__header {
   position: relative;
 }

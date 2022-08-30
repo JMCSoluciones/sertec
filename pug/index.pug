@@ -71,7 +71,7 @@ block content
                 span.visually-hidden Next
     .index__contactenos
         picture 
-            source(media="(min-width:768px)" srcset="images/PNG/fondoContactenos4.png")
+            source(media="(min-width:768px)" srcset="images/PNG/fondoContactenos4.png").img-fluid
             img(src="images/PNG/fondoContactenos.jpg").img-fluid
         p ¿Necesita asesoría especializada para su empresa?
         //- .index__contactenos__btn
@@ -87,8 +87,10 @@ block content
                 .index__area__acerca__box-video
                 .index__area__acerca__box-img
                     picture 
+                        source(media="(min-width:1110px)" srcset="images/Caldera.jpg")
                         source(media="(min-width:768px)" srcset="images/calderaIndex-tablet.jpg")
                         img(src="images/calderaIndex-mobile.jpg").img-fluid
+                        
                         p SOMOS #[strong EXPERTOS] Y TENEMOS LA #[strong EXPERIENCIA] EN CALDERAS
         .index__area__experiencia
             picture 
