@@ -155,6 +155,11 @@ body {
 .index__area__acerca__box-txt img {
   height: 100%;
 }
+.index__area__experiencia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .index__area__experiencia-txt {
   width: 100%;
   height: 100%;
@@ -166,14 +171,17 @@ body {
           align-items: center;
 }
 .index__area__experiencia-txt p {
-  width: 400px;
-  margin: 30px;
+  width: 352px;
+  margin: 6px 10px 6px 80px;
 }
 .index__area__experiencia-img {
-  margin: 10px;
+  margin: 6px 80px 6px 10px;
   top: 0;
-  max-width: 197px;
-  right: 60px;
+  right: 0px;
+  width: 197px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 .index__area__prioridad__title {
   margin: 40px;
