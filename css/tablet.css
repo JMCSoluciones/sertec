@@ -87,7 +87,10 @@ body {
 }
 .index .slideA__Content__box img {
   max-width: 75%;
-  margin: 15px 34px !important;
+  margin: 15px 34px;
+}
+.index .slideA__Content__box .slideA_logo {
+  margin: 20px 10px 20px 20px !important;
 }
 .index .slideB__Content__box-cta {
   bottom: 28px;
@@ -95,7 +98,7 @@ body {
 .index .slide2__Content__box-line4 {
   margin-top: 14px;
 }
-.index__contactenos__txt p {
+.index__contactenos p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,6 +106,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  width: 100%;
 }
 .index__area__acerca__box {
   display: -ms-grid;
@@ -333,22 +337,14 @@ footer .footer__box__body {
   display: grid;
   -ms-grid-columns: (auto)[2];
   grid-template-columns: repeat(2, auto);
-  -ms-grid-rows: (auto)[3];
-  grid-template-rows: repeat(3, auto);
-      grid-template-areas: "enlaces direccion" "horarios facebook" "logo logo";
+  -ms-grid-rows: (auto)[2];
+  grid-template-rows: repeat(2, auto);
+      grid-template-areas: "enlaces direccion" "horarios facebook";
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-footer .footer__box__body-logo {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: logo;
-  width: 60%;
-  margin: 0 auto;
 }
 footer .footer__box__body-links {
   -ms-grid-row: 1;
