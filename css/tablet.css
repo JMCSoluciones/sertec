@@ -225,7 +225,10 @@ body {
   font-size: 1.6rem;
 }
 .empresa__content-historia p {
-  padding: 50px 30px;
+  padding: 0px 30px;
+}
+.empresa__content-historia p br {
+  height: 5px;
 }
 .empresa__content__mvv-box {
   height: 477px;
