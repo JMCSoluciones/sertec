@@ -405,18 +405,11 @@
             }
 
           }
-          &-video{
-
-          }
-          picture{
-            
-          }
+       
+      
           &-img{
             position: relative;
             display: flex;
-
-            img{
-            }
             p{
               top: 0;
               position: absolute;
@@ -439,14 +432,26 @@
       }
       &__experiencia{
         margin: 40px auto;
-        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         
+        background-image: url(/images/experienciaFondo-mobile.jpg);
+        background-position: center right;
+        background-size: cover;
+        width: 100vw;
+        margin-left: -50vw;
+        left: 50%;
+        position: relative;
+        margin-bottom: 0;
+        background-attachment: fixed;
+        color: white;
+        padding: 7%;
+    
+
+        
         &-txt{
-          position: absolute;
-          background-color: rgba(7,42,73, .8);
+          
           height: 100%;
           p{
             color: @color-white;
@@ -461,7 +466,7 @@
           }
         }
         &-img{
-          position: absolute;
+         
           margin: 40px;
           top: 400px;
 

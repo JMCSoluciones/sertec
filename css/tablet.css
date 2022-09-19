@@ -105,6 +105,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   height: 100%;
   width: 100%;
 }
@@ -156,13 +159,23 @@ body {
   height: 100%;
 }
 .index__area__experiencia {
+  background-image: url(/images/experienciaFondo-tablet.jpg);
+  max-height: 522px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px;
 }
 .index__area__experiencia-txt {
-  width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,7 +185,6 @@ body {
 }
 .index__area__experiencia-txt p {
   width: 352px;
-  margin: 6px 10px 6px 80px;
 }
 .index__area__experiencia-img {
   margin: 6px 80px 6px 10px;
@@ -226,9 +238,6 @@ body {
 }
 .empresa__content-historia p {
   padding: 0px 30px;
-}
-.empresa__content-historia p br {
-  height: 5px;
 }
 .empresa__content__mvv-box {
   height: 477px;

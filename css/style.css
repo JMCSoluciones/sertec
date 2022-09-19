@@ -641,7 +641,6 @@ body {
 }
 .index__area__experiencia {
   margin: 40px auto;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -651,10 +650,19 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-image: url(/images/experienciaFondo-mobile.jpg);
+  background-position: center right;
+  background-size: cover;
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+  position: relative;
+  margin-bottom: 0;
+  background-attachment: fixed;
+  color: white;
+  padding: 7%;
 }
 .index__area__experiencia-txt {
-  position: absolute;
-  background-color: rgba(7, 42, 73, 0.8);
   height: 100%;
 }
 .index__area__experiencia-txt p {
@@ -669,7 +677,6 @@ body {
   font-weight: 800;
 }
 .index__area__experiencia-img {
-  position: absolute;
   margin: 40px;
   top: 400px;
 }
