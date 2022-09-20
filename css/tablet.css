@@ -187,9 +187,6 @@ body {
   width: 352px;
 }
 .index__area__experiencia-img {
-  margin: 6px 80px 6px 10px;
-  top: 0;
-  right: 0px;
   width: 197px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -227,8 +224,17 @@ body {
 .index__area__prioridad__items-item-m .box-img {
   margin: 14px;
 }
+.index__area__elegirnos__items {
+  background-image: url(/images/fondo-degradado-tablet.png);
+  background-size: cover;
+  overflow: hidden;
+  background-position: 25% 75%;
+  height: 484px;
+  margin: 40px 0;
+  position: unset;
+}
 .index__area__elegirnos__items-item {
-  margin: 5px 20;
+  margin: 5px 20px;
 }
 .index__area__elegirnos__items-item img {
   width: 15px;
