@@ -70,6 +70,13 @@ body {
 .ir-arriba {
   display: none;
 }
+.carousel__tablet {
+  display: none;
+}
+.carousel-inner {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
 .index .slideA__Content__box img {
   width: 400px;
   overflow: hidden;
@@ -361,8 +368,16 @@ body {
   margin: 80px auto;
   position: unset;
 }
+.index__area__prioridad__items {
+  margin: 0 auto;
+  gap: 110px;
+}
+.index__area__prioridad__items-item {
+  width: 238px;
+}
 .index__area__elegirnos__items {
-  width: 800px;
+  max-width: 1110px;
+  margin: 20px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,9 +388,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+  gap: 20px;
+  padding: 100%;
 }
 .title {
   max-width: 600px;

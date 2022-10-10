@@ -3,6 +3,16 @@
 .ir-arriba{
     display: none;
 }
+.carousel__tablet{
+    display: none;
+   
+}
+.carousel-inner{
+    border-top: 2px solid @color-primary;
+    border-bottom: 2px solid @color-primary;
+
+}
+  
 .index{
     .slideA__Content{
         &__box{
@@ -253,16 +263,30 @@
             margin: 80px auto;
             position: unset;
         }
-    &__elegirnos{
+        &__prioridad{
+            &__items{
+                margin: 0 auto;
+                gap: 110px;
+                
+                &-item{
+                    width: 238px;
+                }
+            }
+        }
+        &__elegirnos{
+            
         &__items{
-            width: 800px;
+            max-width: 1110px;
+            margin: 20px auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: self-start;
+            gap: 20px;
+            padding: 100%;
         }
         
-    }
+        }
     }
 }
 .title{
