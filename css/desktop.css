@@ -401,6 +401,15 @@ body {
   max-width: 1110px;
   margin: 80px auto !important;
 }
+.empresa .section__header-content p {
+  font-size: 6.6rem;
+  line-height: 8rem;
+  font-weight: 100;
+  padding-left: 100px;
+}
+.empresa .section__header-content p strong {
+  font-size: 8rem;
+}
 .empresa__content {
   max-width: 1110px;
   margin: 20px auto;
@@ -411,12 +420,33 @@ body {
 .empresa__content-historia p {
   top: 30px;
   margin: 20px;
+  padding: 50px;
 }
 .empresa__content__mvv {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+}
+.empresa__content__mvv-box p {
+  font-size: 1.4rem;
+}
+.banner-title {
+  font-size: 8rem !important;
+  font-weight: 400 !important;
+  height: 348px;
+  background-color: rgba(12, 42, 72, 0.4) !important;
+}
+.servicios .section__header-content p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .servicios__necesidades {
   max-width: 1110px;

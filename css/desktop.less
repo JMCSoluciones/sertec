@@ -297,12 +297,26 @@
     margin: 80px auto !important;
 }
 .empresa{
+    .section__header{
+        &-content{
+            p{
+               font-size: 6.6rem;
+               line-height: 8rem;
+               font-weight: 100;
+               padding-left: 100px;
+               strong{
+                font-size: 8rem;
+               }
+            }
+        }
+    }
     &__content{
         &-historia{
             margin-bottom: 40px;
            p{
                top: 30px;
                margin: 20px;
+               padding: 50px;
            }
         }
         max-width: 1110px;
@@ -310,11 +324,32 @@
         &__mvv{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            &-box{
+                p{
+                    font-size: 1.4rem;
+
+                }
+            }
         }
        
     }
 }
+.banner-title{
+    font-size: 8rem !important;
+    font-weight: @font-regular !important;
+    height: 348px;
+    background-color: rgba(12,42,72, .40) !important;
+  }
 .servicios{
+    .section__header{
+        &-content{
+            p{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+    }
     &__necesidades{
         max-width: 1110px;
         margin: 20px auto;
