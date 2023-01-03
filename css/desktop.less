@@ -7,6 +7,9 @@
     display: none;
    
 }
+.carousel__desktop{
+    display: inline;
+}
 .carousel-inner{
     border-top: 2px solid @color-primary;
     border-bottom: 2px solid @color-primary;
@@ -274,16 +277,26 @@
             }
         }
         &__elegirnos{
+           
             
         &__items{
-            max-width: 1110px;
-            margin: 20px auto;
+            width: 1110px;
+            height: 570px;
+            overflow: hidden;
+            margin: auto auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: self-start;
+            align-items: center;
             gap: 20px;
-            padding: 100%;
+            left: 0;
+            padding: 20px;
+            &-item{
+                width: 800px;
+                p{
+                    font-size: @size-lg;
+                }
+            }
         }
         
         }

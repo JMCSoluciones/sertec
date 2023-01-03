@@ -79,6 +79,9 @@ body {
   border-bottom: 2px solid #000000;
   display: inline;
 }
+.carousel__desktop {
+  display: none;
+}
 .marcas__propiedad p {
   font-size: 1.4rem;
 }
@@ -225,7 +228,7 @@ body {
   margin: 14px;
 }
 .index__area__elegirnos__items {
-  background-image: url(/images/fondo-degradado-tablet.png);
+  background-image: url(../images/fondo-degradado-tablet.png);
   background-size: cover;
   overflow: hidden;
   background-position: 25% 75%;

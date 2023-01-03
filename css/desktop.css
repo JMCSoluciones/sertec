@@ -73,6 +73,9 @@ body {
 .carousel__tablet {
   display: none;
 }
+.carousel__desktop {
+  display: inline;
+}
 .carousel-inner {
   border-top: 2px solid #000000;
   border-bottom: 2px solid #000000;
@@ -376,8 +379,10 @@ body {
   width: 238px;
 }
 .index__area__elegirnos__items {
-  max-width: 1110px;
-  margin: 20px auto;
+  width: 1110px;
+  height: 570px;
+  overflow: hidden;
+  margin: auto auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -388,11 +393,18 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: self-start;
-      -ms-flex-align: self-start;
-          align-items: self-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px;
-  padding: 100%;
+  left: 0;
+  padding: 20px;
+}
+.index__area__elegirnos__items-item {
+  width: 800px;
+}
+.index__area__elegirnos__items-item p {
+  font-size: 1.8rem;
 }
 .title {
   max-width: 600px;
