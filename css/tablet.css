@@ -159,7 +159,7 @@ body {
   height: 100%;
 }
 .index__area__experiencia {
-  background-image: url(/images/experienciaFondo-tablet.jpg);
+  background-image: url('/images/experienciaFondo-tablet.jpg');
   max-height: 522px;
   display: -webkit-box;
   display: -ms-flexbox;
