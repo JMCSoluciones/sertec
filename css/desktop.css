@@ -460,6 +460,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.servicios__carousel {
+  margin: 30px auto;
+  width: 780px;
+  height: auto;
+}
+.servicios__carousel .carousel-indicators {
+  bottom: 20px;
+}
 .servicios__necesidades {
   max-width: 1110px;
   margin: 20px auto;
