@@ -181,7 +181,7 @@ body {
       align-self: center;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box {
-  height: 75%;
+  height: 360px;
   width: 100%;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.65);
@@ -198,6 +198,19 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.index .carousel-inner .carousel-item .slideA__Content__box-cta {
+  background-color: #831d22;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 5px;
+  width: 180px;
+  text-align: center;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box .slideA_logo {
   margin: 0px 10px;
