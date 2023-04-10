@@ -88,12 +88,29 @@ body {
 .index .slideA__Content {
   width: 100%;
 }
+.index .slideA__Content__box {
+  height: 400px !important;
+}
 .index .slideA__Content__box img {
   max-width: 75%;
   margin: 15px 34px;
 }
 .index .slideA__Content__box .slideA_logo {
   margin: 20px 10px 20px 20px !important;
+}
+.index .slideA__Content__box-txtsomos {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 5px 50px;
+}
+.index .slideA__Content__box-txtservicio {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.2rem;
+  text-align: center;
+}
+.index .slideA__Content__box-cta {
+  bottom: 28px;
 }
 .index .slideB__Content__box-cta {
   bottom: 28px;
