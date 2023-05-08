@@ -806,7 +806,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(/images/fondo-degradado-mobile.png);
+  background-image: url(../images/fondo-degradado-mobile.png);
   background-position: center right;
   background-size: cover;
   width: 100vw;
