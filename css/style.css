@@ -668,7 +668,7 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-image: url(/images/experienciaFondo-mobile.jpg);
+  background-image: url(../images/experienciaFondo-mobile.jpg);
   background-position: center right;
   background-size: cover;
   width: 100vw;
