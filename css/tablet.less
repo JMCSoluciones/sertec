@@ -231,6 +231,29 @@
         &__items{
             display: grid;
             grid-template-columns: 1fr 1fr;
+        &-item{
+            .modal{
+                &-content{
+                    &-body{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        &-sidebar{
+                            &__images{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        
+        
         }
     }
 }

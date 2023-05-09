@@ -1072,6 +1072,8 @@ body {
 .servicios__catalogo__items-item .modal-content-body-content p {
   font-weight: 400;
   text-align: justify;
+  font-size: 1.6rem;
+  padding: 10px;
 }
 .servicios__catalogo__items-item .modal-content-body-content ul {
   margin: 20px 40px;
