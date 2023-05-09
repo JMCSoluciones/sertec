@@ -31,7 +31,7 @@ body {
 .section__header {
   position: relative;
 }
-.section__header-content p {
+/* .section__header-content p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -46,7 +46,7 @@ body {
   text-align: left;
   font-weight: 300;
   line-height: 4.9rem;
-}
+} */
 .section__header-content p strong {
   font-size: 4.5rem;
   font-weight: 600;

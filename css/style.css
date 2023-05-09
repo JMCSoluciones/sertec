@@ -112,9 +112,9 @@ body {
   font-weight: 600;
 }
 .modal-footer {
-  -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .carousel__marcas {
   width: 90%;
@@ -1090,9 +1090,12 @@ body {
   margin: 5px;
 }
 .servicios__catalogo__items-item .modal-content-footer {
-  -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.servicios__catalogo__items-item .modal-content-footer button {
+  width: 100px;
 }
 .productos__brindar p {
   font-size: 2rem;

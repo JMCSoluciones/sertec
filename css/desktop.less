@@ -26,6 +26,9 @@
             justify-content: center;
             align-items: center;
             max-width: 25%;
+            border-right: 2px solid @color-gray;
+            padding-right: 30px;
+            height: 100vh;
         }
         &-content{
             display: flex;
@@ -34,15 +37,27 @@
             align-items: center;
             max-width: 60%;
             margin: 0 auto;
+            p{
+                font-size: 1.4rem;
+                padding: 0;
+            }
+            ul{
+                li{
+                    p{
+                        font-size: 1.3rem !important;
+                    }
+                }
+            }
         }
     }
     &-footer{
         display: flex;
-        justify-content: center;
+        justify-content: flex-end !important;
         align-items: center;
         width: 90%;
     }
 }
+
 .ir-arriba{
     display: none;
 }
@@ -267,9 +282,9 @@
         justify-content: center;
         p{
             font-size: 2.3rem;
-            margin-right: 200px;
+            margin-left: 40px;
             width: 100%;
-            margin: 0 20px;
+            
         }
         
         // &__btn{
@@ -491,6 +506,15 @@
     }
 }
 .productos{
+    .section__header{
+        &-content{
+            p{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+    }
     &__brindar{
         margin: 0 auto;
         max-width: 1110px;
@@ -500,8 +524,52 @@
         margin: 0 auto;
     }
 }
+.calderas{
+    .section__header{
+        &-content{
+            p{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+    }
+    &__carousel{
+        margin: 10px auto;
+        max-width: 1110px;
+    }
+}
+.contacto{
+    .section__header{
+        &-content{
+            p{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+    }
+    &__txt{
+        margin: 30px auto;
+        max-width: 1110px;
+        p{
+            margin: 0;
+        }
+    }
+    &__box{
+        margin: 0 auto;
+        max-width: 1110px;
+    }
+    &__convencer{
+        margin: 40px auto;
+        max-width: 1110px;
+        
+        picture{
+            height: 73px;
 
-
+        }
+    }
+}
 footer{
     .footer__servirle{
         justify-content: center;
