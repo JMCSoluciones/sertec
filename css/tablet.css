@@ -130,6 +130,7 @@ body {
           justify-content: flex-start;
   height: 100%;
   width: 100%;
+  padding-left: 20px;
 }
 .index__area__acerca__box {
   display: -ms-grid;
