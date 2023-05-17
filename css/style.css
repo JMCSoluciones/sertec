@@ -179,6 +179,10 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 87.5%;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box {
   height: 100%;
@@ -200,15 +204,22 @@ body {
           align-items: center;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box-txtsomos {
-  font-family: 'Poppins', sans-serif;
   font-size: 2.2rem;
   text-align: center;
-  margin: 50px 50px;
+  margin: 0px auto;
+  position: relative;
+  bottom: 18px;
+  padding: 0 39px;
+  font-family: 'Poppins', sans-serif;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box-txtservicio {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3.2rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.6rem;
   text-align: center;
+  font-weight: 600;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 21px;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box-cta {
   background-color: #831d22;
@@ -225,6 +236,8 @@ body {
 }
 .index .carousel-inner .carousel-item .slideA__Content__box .slideA_logo {
   margin: 0px 10px;
+  position: relative;
+  bottom: 30px;
 }
 .index .carousel-inner .carousel-item .slideA__Content__box .slideA_logoTermiz {
   width: 200px;
