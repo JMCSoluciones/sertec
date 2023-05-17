@@ -150,6 +150,9 @@ body {
 .carousel__tablet {
   display: none;
 }
+.carousel__desktop {
+  display: none;
+}
 .marcas__propiedad p {
   text-align: center;
   font-size: 1.8rem;
