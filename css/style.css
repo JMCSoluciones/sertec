@@ -84,6 +84,13 @@ body {
   right: 20px;
   z-index: 1;
 }
+.carousel__marcasTxt {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3.3rem;
+  color: #7f8c8d;
+  font-family: 'Poppins', sans-serif;
+}
 .carousel-indicators {
   margin-bottom: 1.5rem !important;
 }
@@ -99,7 +106,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  padding: 10px 5px;
+  padding: 10px 30px;
   font-size: 1.2rem;
   font-weight: 400;
   color: #4F4B49;
@@ -834,8 +841,7 @@ body {
   position: relative;
   margin-bottom: 0;
   background-attachment: fixed;
-  padding: 7%;
-  padding: 10px;
+  padding: 25px;
 }
 .index__area__elegirnos__items-item {
   display: -webkit-box;
