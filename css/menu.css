@@ -40,7 +40,7 @@ body {
   grid-template-columns: 1fr;
   overflow: hidden;
 }
-/* .section__header-content > *:nth-child(1) {
+.section__header-content > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
@@ -59,7 +59,7 @@ body {
   text-align: left;
   font-weight: 300;
   line-height: 4.9rem;
-} */
+}
 .section__header-content p strong {
   font-size: 4.5rem;
   font-weight: 600;
