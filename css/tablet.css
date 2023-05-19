@@ -82,14 +82,18 @@ body {
 .carousel__desktop {
   display: none;
 }
+.carousel-item {
+  height: 100px;
+  padding-top: 30px;
+}
+.carousel__marcasTxt {
+  font-size: 3.9rem;
+}
 .marcas__propiedad p {
   font-size: 1.4rem;
 }
 .index .slideA__Content {
   width: 100%;
-}
-.index .slideA__Content__box {
-  height: 400px !important;
 }
 .index .slideA__Content__box img {
   max-width: 75%;
@@ -110,7 +114,7 @@ body {
   text-align: center;
 }
 .index .slideA__Content__box-cta {
-  bottom: 28px;
+  bottom: -1px !important;
 }
 .index .slideB__Content__box-cta {
   bottom: 28px;
@@ -125,9 +129,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
   width: 100%;
   padding-left: 20px;
@@ -301,12 +305,16 @@ body {
 }
 .servicios__periodico p {
   width: 695px;
+  font-size: 2.1rem;
 }
 .servicios__catalogo__items {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+}
+.servicios__catalogo__items-item-capa h3 {
+  height: 40px;
 }
 .servicios__catalogo__items-item .modal-content-body {
   display: -webkit-box;
