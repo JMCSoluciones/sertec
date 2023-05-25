@@ -201,6 +201,11 @@ body {
   display: inline;
 }
 .carousel-inner {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+.carousel-inner-images {
+  height: 600px;
   border: 2px solid #000000;
 }
 .carousel-item {
@@ -526,6 +531,10 @@ body {
 .index__area__prioridad__items-item {
   width: 238px;
 }
+.index__area__prioridad__items-item .box-txt a {
+  background-color: #fff;
+  color: #000000;
+}
 .index__area__elegirnos__items {
   width: 1110px;
   height: 570px;
@@ -751,6 +760,10 @@ figure:hover > .servicios__catalogo__items-item-capa {
 .contacto__convencer {
   margin: 40px auto;
   max-width: 1110px;
+}
+.contacto__convencer p {
+  margin: 0 auto;
+  width: 100%;
 }
 .contacto__convencer picture {
   height: 73px;

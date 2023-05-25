@@ -108,8 +108,14 @@
     display: inline;
 }
 .carousel-inner{
-    border: 2px solid @color-primary;
+    border-top: 2px solid @color-primary;
+    border-bottom: 2px solid @color-primary;
 
+
+}
+.carousel-inner-images{
+    height: 600px;
+    border: 2px solid @color-primary;
 }
 .carousel-item{
     padding-top: 0;
@@ -389,6 +395,12 @@
                 
                 &-item{
                     width: 238px;
+                    .box-txt{
+                        a{
+                            background-color: #fff;
+                            color: @color-primary;
+                        }
+                    }
                 }
             }
         }
@@ -618,7 +630,10 @@
     &__convencer{
         margin: 40px auto;
         max-width: 1110px;
-        
+        p{
+            margin: 0 auto;
+            width: 100%;
+        }
         picture{
             height: 73px;
 
