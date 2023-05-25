@@ -127,10 +127,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 25%;
+  max-width: 40%;
   border-right: 2px solid #C4C4C4;
   padding-right: 30px;
-  height: 100vh;
 }
 .modal-content-body-content {
   display: -webkit-box;
@@ -168,6 +167,30 @@ body {
           align-items: center;
   width: 90%;
 }
+.slide1__Content__box-line3 {
+  margin-top: 82px !important;
+}
+.slide2__Content__box {
+  top: 61px !important;
+}
+.slide2__Content__box p {
+  font-weight: 800;
+  font-size: 2.5rem !important;
+  line-height: 2.8rem !important;
+}
+.slide3__Content__box {
+  max-width: 1110px;
+}
+.slide3__Content__box-line2 {
+  right: -30px;
+}
+.slide4__Content__box {
+  max-width: 1110px;
+  top: 5px !important;
+}
+.slide4__Content__box-line2 {
+  right: -30px;
+}
 .ir-arriba {
   display: none;
 }
@@ -178,11 +201,30 @@ body {
   display: inline;
 }
 .carousel-inner {
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
+  border: 2px solid #000000;
+}
+.carousel-item {
+  padding-top: 0;
 }
 .carousel__marcas {
   max-width: 1110px;
+}
+.carousel__marcasTxt {
+  margin: 30px auto;
+}
+.modal.show .modal-dialog {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+.modal-content {
+  width: 800px !important;
 }
 .index .slideA__Content__box {
   height: 300px;
@@ -520,13 +562,15 @@ body {
   margin: 80px auto !important;
 }
 .empresa .section__header-content p {
-  font-size: 6.6rem;
-  line-height: 8rem;
-  font-weight: 100;
-  padding-left: 100px;
-}
-.empresa .section__header-content p strong {
-  font-size: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .empresa__content {
   max-width: 1110px;
@@ -644,7 +688,9 @@ figure:hover > .servicios__catalogo__items-item-capa {
   color: #fff;
   -webkit-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
+  margin: 30px auto;
   font-size: 3rem;
+  padding: 0px 20px;
 }
 .productos .section__header-content p {
   display: -webkit-box;

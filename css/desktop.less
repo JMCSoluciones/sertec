@@ -25,10 +25,9 @@
             flex-direction: colum;
             justify-content: center;
             align-items: center;
-            max-width: 25%;
+            max-width: 40%;
             border-right: 2px solid @color-gray;
             padding-right: 30px;
-            height: 100vh;
         }
         &-content{
             display: flex;
@@ -57,6 +56,46 @@
         width: 90%;
     }
 }
+.slide1__Content{
+    &__box{
+        &-line3{
+            margin-top: 82px !important;
+        }
+    }
+}
+.slide2__Content{
+    &__box{
+        top: 61px !important;
+        p{
+            font-weight: 800;
+            font-size: 2.5rem !important;
+            line-height: 2.8rem !important;
+        }
+
+    }
+}
+.slide3__Content{
+    &__box{
+       
+          max-width: 1110px;
+          &-line2{
+            right: -30px;
+          }
+    }
+    
+}
+.slide4__Content{
+    &__box{
+       
+          max-width: 1110px;
+          top: 5px !important;
+          &-line2{
+            right: -30px;
+          }
+    }
+}
+
+
 
 .ir-arriba{
     display: none;
@@ -69,12 +108,27 @@
     display: inline;
 }
 .carousel-inner{
-    border-top: 2px solid @color-primary;
-    border-bottom: 2px solid @color-primary;
+    border: 2px solid @color-primary;
 
+}
+.carousel-item{
+    padding-top: 0;
 }
 .carousel__marcas{
     max-width: 1110px;
+}
+.carousel__marcasTxt{
+    margin: 30px auto;
+
+}
+.modal.show .modal-dialog{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+.modal-content{
+    width: 800px !important;
 }
   
 .index{
@@ -375,13 +429,14 @@
     .section__header{
         &-content{
             p{
-               font-size: 6.6rem;
-               line-height: 8rem;
-               font-weight: 100;
-               padding-left: 100px;
-               strong{
-                font-size: 8rem;
-               }
+            //    font-size: 6.6rem;
+            //    line-height: 8rem;
+            //    font-weight: 100;
+            //    padding-left: 100px;
+               display: flex;
+                justify-content: flex-start;
+                align-items: center;
+              
             }
         }
     }
@@ -491,10 +546,10 @@
                     justify-content: center;
                     h3{
                         color: #fff;
-                        
                         transition: all 500ms ease-out;
-                      
+                        margin: 30px auto;
                         font-size: 3rem;
+                        padding: 0px 20px;
                         
 
                     }
