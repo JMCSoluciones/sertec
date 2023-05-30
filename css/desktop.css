@@ -243,6 +243,12 @@ body {
   width: 400px;
   overflow: hidden;
 }
+.index .slideA__Content__box-txtservicio {
+  bottom: 33px;
+}
+.index .slideA__Content__box-txtsomos {
+  bottom: 49px;
+}
 .index .slideB__Content__box {
   background-color: rgba(255, 255, 255, 0.8);
   display: -ms-grid;
