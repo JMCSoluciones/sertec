@@ -171,7 +171,8 @@ body {
   margin-top: 82px !important;
 }
 .slide2__Content__box {
-  top: 61px !important;
+  top: 48px !important;
+  margin-top: 61px;
 }
 .slide2__Content__box p {
   font-weight: 800;
@@ -204,6 +205,9 @@ body {
   border-top: 2px solid #000000;
   border-bottom: 2px solid #000000;
 }
+.carousel-inner.carousel-inner-imagesCalderas {
+  border: 2px solid #000000;
+}
 .carousel-inner-images {
   height: 600px;
   border: 2px solid #000000;
@@ -233,6 +237,7 @@ body {
 }
 .index .slideA__Content__box {
   height: 300px;
+  top: 0;
 }
 .index .slideA__Content__box img {
   width: 400px;
@@ -372,6 +377,10 @@ body {
   -ms-grid-column-span: 5;
   grid-area: a;
   margin: 0 auto;
+}
+.index .slide2__Content__box-line4 {
+  position: relative;
+  bottom: 61px;
 }
 .index .slide3__Content__box {
   display: -ms-grid !important;
@@ -534,6 +543,11 @@ body {
 .index__area__prioridad__items-item .box-txt a {
   background-color: #fff;
   color: #000000;
+  font-weight: 800;
+}
+.index__area__prioridad__items-item .box-txt a:hover {
+  background-color: #0d6efd;
+  color: #fff;
 }
 .index__area__elegirnos__items {
   width: 1110px;
@@ -764,6 +778,7 @@ figure:hover > .servicios__catalogo__items-item-capa {
 .contacto__convencer p {
   margin: 0 auto;
   width: 100%;
+  font-size: 2.3rem;
 }
 .contacto__convencer picture {
   height: 73px;

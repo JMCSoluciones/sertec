@@ -65,7 +65,8 @@
 }
 .slide2__Content{
     &__box{
-        top: 61px !important;
+        top: 48px !important;
+        margin-top: 61px;
         p{
             font-weight: 800;
             font-size: 2.5rem !important;
@@ -110,8 +111,9 @@
 .carousel-inner{
     border-top: 2px solid @color-primary;
     border-bottom: 2px solid @color-primary;
-
-
+}
+.carousel-inner.carousel-inner-imagesCalderas{
+    border: 2px solid @color-primary;
 }
 .carousel-inner-images{
     height: 600px;
@@ -141,6 +143,7 @@
     .slideA__Content{
         &__box{
             height: 300px;
+            top: 0;
             img{
                 width: 400px;
                 overflow: hidden;
@@ -257,6 +260,10 @@
                 grid-area: a;
                 margin: 0 auto;
 
+            }
+            &-line4{
+                position: relative;
+                bottom: 61px;
             }
         }
 
@@ -399,6 +406,11 @@
                         a{
                             background-color: #fff;
                             color: @color-primary;
+                            font-weight: 800;
+                        }
+                        a:hover{
+                            background-color: #0d6efd;
+                            color: #fff;
                         }
                     }
                 }
@@ -633,6 +645,7 @@
         p{
             margin: 0 auto;
             width: 100%;
+            font-size: 2.3rem;
         }
         picture{
             height: 73px;
