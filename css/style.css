@@ -400,6 +400,9 @@ body {
   text-align: center;
   color: #ffffff;
 }
+.index .carousel-inner .carousel-item .slide2__Content__box p {
+  font-weight: 800;
+}
 .index .carousel-inner .carousel-item .slide2__Content__box-line1,
 .index .carousel-inner .carousel-item .slide2__Content__box-line2,
 .index .carousel-inner .carousel-item .slide2__Content__box-line3 {
