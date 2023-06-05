@@ -31,7 +31,20 @@ body {
 .section__header {
   position: relative;
 }
-/* .section__header-content p {
+.section__header-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+.section__header-content > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.section__header-content p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -46,7 +59,7 @@ body {
   text-align: left;
   font-weight: 300;
   line-height: 4.9rem;
-} */
+}
 .section__header-content p strong {
   font-size: 4.5rem;
   font-weight: 600;

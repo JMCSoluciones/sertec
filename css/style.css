@@ -856,6 +856,7 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin: 10px auto;
 }
 .index__area__elegirnos__items-item img {
   width: 25px;
